@@ -30,7 +30,7 @@ format:
 :::
 
 ::: footer
-Imagen: @megíaspacheco2017
+@megíaspacheco2017
 :::
 
 ## Tejidos
@@ -69,7 +69,7 @@ Son células vivas, con pared primaria, forma variable, totipotentes, multifunci
 
 ## Parénquima
 
-![Tipos de parénquima. @megíaspacheco2017](images/parenquima_tipos.png){#parenquima-tipos fig-align="\"center"}
+![Tipos de parénquima. @megíaspacheco2017](images/parenquima_tipos.png){#parenquima-tipos fig-align="center"}
 
 ## Epidermis
 
@@ -79,18 +79,145 @@ Formada por: células epidérmicas, estomas, idioblastos, tricomas.
 
 ## Epidermis monoestratificada
 
-![Epidermis con diferentes tipos de cutícula @megíaspacheco2017](images/epidermis_cuticula.jpg){fig-align="center"}
+![Epidermis con diferentes tipos de cutícula @megíaspacheco2017](images/epidermis_cuticula.jpg){#epidermis-cuticula fig-align="center"}
 
 ## Epidermis pluriestratificada
 
 ::: columns
 ::: {.column width="50%"}
-![velamen de la raíz aérea de una orquídea. @megíaspacheco2017](images/epidermis_velamen.png){fig-align="center"}
+![velamen de la raíz aérea de una orquídea. @megíaspacheco2017](images/epidermis_velamen.png){#epidermis-velamen fig-align="center"}
 :::
+
 ::: {.column width="50%"}
-![Hoja de *Ficus elastica*](images/hoja_ficus.png){fig-align="center"} 
+![Hoja de *Ficus elastica.*](images/hoja_ficus.png){#hoja-ficus fig-align="center"}
 :::
 :::
+
+## Estomas
+
+> Abertura en la epidermis de hojas y tallos, bordeada por dos células de guarda (oclusivas), que sirve para el intercambio de gases; también usado para referirse a todo el aparato estomático: las células de guarda más su poro (ostiolo) incluido. @evert2006
+
+![Estoma en vista superficial. @arbo2019](images/estoma_superficial.jpg){#estoma-superficial fig-align="center"}
+
+## Estomas
+
+::: columns
+::: {.column width="50%"}
+![Estomas en vista lateral. @megíaspacheco2017](images/estoma_lateral.jpg){#estoma-lateral fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![Tipos de estomas. @singh2019](images/estomas_tipos.png){#estomas-tipos fig-align="center"}
+:::
+:::
+
+## Tricomas
+
+> Excrecencia epidérmica de diversa forma, estructura y función, pero sin tejido vascular. @beentje2016
+
+::: columns
+::: {.column width="50%"}
+![Tricomas. @megíaspacheco2017](images/tricomas.jpg){#tricomas fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![Tricomas de ají rotoco. [Lrothc](https://en.wikipedia.org/wiki/Trichome#/media/File:Cap1033-botao1.jpg)](images/tricomas_capsicum.jpg){#tricomas-capsicum fig-align="center"}
+:::
+:::
+
+## Tricomas: tipos
+
+![Tipos de tricomas. @megíaspacheco2017](images/tricomas-tipos.png){#tricomas-tipos fig-align="center"}
+
+## Meristemos
+
+> Tejido indiferenciado con capacidad de división. @beentje2016
+
+Son células vivas, indiferenciadas, poliédricas, con grandes núcleos y abundante RE y AG.
+
+![Meristemo apical caulinar. @megíaspacheco2017](images/meristemo-apical.png){#meristemo-apical fig-align="center"}
+
+## Meristemos: clasificación
+
+![Clasificación de los meristemos. @megíaspacheco2017](images/meristemos_clasificacion.png){#meristemos-clasificacion fig-align="center"}
+
+## Meristemos primarios
+
+![Meristemo apical caulinar y radicular. @evert2013](images/meristemos_apical.png){#meristemos-apical fig-align="center"}
+
+## Meristemos secundarios
+
+::: columns
+::: {.column width="50%"}
+![Cámbium vascular.](images/cambium-vascular.jpg){#cambium-vascular fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![Cámbium suberoso.](images/cambium-suberoso.jpg){#cambium-suberoso.jpg fig-align="center"}
+:::
+:::
+
+::: footer
+@megíaspacheco2017
+:::
+
+# Procedimiento
+
+## Epidermis
+
+Corte transversal de hoja de *Dianthus caryophyllus* y *Ficus elastica* en fresco.  
+Epidermis monoestratificada y pluriestratificada.
+
+## Estomas
+
+Corte transversal de hoja de *Ficus elastica* y *Nerium oleander* con Safranina y Azul Alcián.  
+Cara abaxial, estomas y criptas estomáticas.
+
+## Tipos de estomas
+
+Corte longitudinal con Safranina y Azul Alcián de epidermis abaxial de hoja de *Brassica oleracea*, *Coffea arabica*, *Dianthus caryophyllus*, *Tradescantia pallida*, o cualquier otra planta.
+
+## Tricomas
+
+Corte transversal con Safranina y Azul Alcián de hoja, peciolo o tallo de *Cannabis sativa*, *Nicotiana tabacum*, *Pelargonium sp.*, *Portulaca oleracea*, *Solanum lycopersicum*, *Solanum quitoense*, *Tillandsia recurvata* o cualquier otra planta.
+
+## Clorénquima y parénquima de reserva
+
+Corte transversal con Safranina y Azul Alcián de hoja de Nerium oleander. Repetir con Lugol.  
+Clorénquimam y parénquima de reserva.
+
+## Aerénquima
+
+Corte transversal con Safranina y Azul Alcián de hoja o tallo de *Cyperus papyrus*, pecíolo de *Canna sp.* o talo de *Egeria densa*.
+
+## Hidrénquima
+
+Corte transversal con Safranina y Azul Alcián de hoja de *Aloe vera*.
+
+## Meristemo apical
+
+Corte longitudinal con Safranina y Azul Alcián de meristemo apical de *Solenostemon scutellarioides*.
+
+## Cámbium vascular
+
+Corte transversal con Safranina y Azul Alcián de tallo de *Aristolochia ringens*.
+
+## Cámbium suberoso
+
+Corte transversal con Safranina y Azul Alcián de tallo de *Pelargonium sp.*  
+Felógeno, súber o corcho, felodermis.
+
+# ¿Preguntas?
+
+## Próximo práctica
+
+-   Fruto de [*Pyrus communis*](https://tropicos.org/name/27800339) (Pera)
+-   Hojas y tallos de [*Apium graveolens*](https://tropicos.org/name/1700014) (Apio)
+-   Hojas y tallos de [*Coriandrum sativum*](https://tropicos.org/name/1700064) (Cilantro)
+-   Hojas y tallos de [*Cucurbita máxima*](https://tropicos.org/name/50172465) (Auyama o Zapallo)
+-   Hojas y tallos de [*Lactuca sativa*](https://tropicos.org/name/2710604) (Lechuga)
+-   Hojas y tallos de [*Mentha × piperita*](https://tropicos.org/name/17600157) (Menta) o[*Mentha spicata*](https://tropicos.org/name/17600159) (Hierbabuena)
+-   Hojas y tallos de [*Petroselinum crispum*](https://tropicos.org/name/50323572) (Perejil)
 
 ## Referencias
 

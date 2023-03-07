@@ -1,8 +1,20 @@
 project:
-  title: "Presentaciones del Laboratorio de Biología de las plantas"
-
+  type: website
+  
+website:
+  title: "Biología de las Plantas: Laboratorio"
+  sidebar: 
+    style: docked
+    search: true
+    contents: 
+      - index.qmd
+      - section: "Presentaciones"
+  page-navigation: true
+    
 date-format: iso
 csl: apa.csl
 
-
-
+format: 
+  html: 
+   theme: minty
+   toc: true
