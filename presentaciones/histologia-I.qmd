@@ -1,5 +1,6 @@
 ---
-title: "Biología de las Plantas laboratorio"
+title: "Histología I"
+subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
 date: 2022-03-02
 
@@ -12,8 +13,6 @@ format:
     logo: images/geobota_logo.png
     footer: <http://alexespinosaco.github.io>
 ---
-
-# Histología I
 
 ## Tejidos
 

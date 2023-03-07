@@ -2,15 +2,21 @@ project:
   type: website
   
 website:
-  title: "Biología de las Plantas: Laboratorio"
+  title: "Biología de las Plantas: laboratorio"
   sidebar: 
     style: docked
     search: true
     contents: 
       - index.qmd
+      - href: https://alexespinosaco.github.io/manual-laboratorio-biologia-plantas/
+        text: Manual de laboratorio
       - section: "Presentaciones"
-  page-navigation: true
+        contents: 
+          - presentaciones/histologia-I.qmd
+  page-navigation: false
     
+link-external-icon: true
+link-external-newwindow: true
 date-format: iso
 csl: apa.csl
 
@@ -18,3 +24,5 @@ format:
   html: 
    theme: minty
    toc: true
+   link-external-icon: true
+   link-external-newwindow: true
