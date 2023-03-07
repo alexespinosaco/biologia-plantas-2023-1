@@ -1,5 +1,8 @@
 project:
   title: "Presentaciones del Laboratorio de Biología de las plantas"
 
+date-format: iso
+csl: apa.csl
+
 
 

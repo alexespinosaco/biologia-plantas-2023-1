@@ -1,0 +1,98 @@
+---
+title: "Biología de las Plantas laboratorio"
+author: "Álex Espinosa Correa"
+date: 2022-03-02
+
+bibliography: references-histologia-1.bib
+
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: true
+    logo: images/geobota_logo.png
+    footer: <http://alexespinosaco.github.io>
+---
+
+# Histología I
+
+## Tejidos
+
+> Grupo de células organizadas en una unidad estructural y funcional. Las células componentes pueden ser similares (tejido simple) o variadas (tejido complejo). @evert2006
+
+::: columns
+::: {.column width="50%"}
+![Clasificación tradicional.](images/tejidos_tradicional.png){#tejidos-tradicional fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![Clasificación según permanencia, capacidad de división y tipos celulares que los componen.](images/tejidos_permanencia.png){#tejidos-permanencia fig-align="center"}
+:::
+:::
+
+::: footer
+Imagen: @megíaspacheco2017
+:::
+
+## Tejidos
+
+::: columns
+::: {.column width="65%"}
+![Sistemas de tejidos en plantas. @nabors2006.](images/tejidos_sistemas.png){#tejidos-sistemas fig-align="center"}
+:::
+
+::: {.column width="35%"}
+![Distribución de los tejidos primarios. @evert2013.](images/tejidos_distribucion.png){#tejidos-distribucion fig-align="center"}
+:::
+:::
+
+## Parénquima
+
+> Tejido blando formado por células con paredes delgadas. @beentje2016
+
+Son células vivas, con pared primaria, forma variable, totipotentes, multifuncionales. Los tipos son como:
+
+::: columns
+::: {.column width="50%"}
+-   Acuífero o Hidrénquima.
+-   Aerífero o Aerénquima.
+-   Clorofílico o Clorénquima.
+:::
+
+::: {.column width="50%"}
+-   De reserva.
+-   De transferencia.
+-   Vascular.
+:::
+:::
+
+![](images/iparenchyma.png){#tejidos-iparenchyma fig-align="center"}
+
+## Parénquima
+
+![Tipos de parénquima. @megíaspacheco2017](images/parenquima_tipos.png){#parenquima-tipos fig-align="\"center"}
+
+## Epidermis
+
+> Capa de células que separa el medio interno de las plantas del externo en aquellos órganos que no presentan crecimiento secundario. Está formada **generalmente** por una sola capa de células. **Normalmente** es una capa transparente ya que sus células suelen carecer de cloroplastos. Su principal misión es la de protección, no sólo frente a daños mecánicos y patógenos sino de manera muy importante frente a la desecación. @megíaspacheco2017
+
+Formada por: células epidérmicas, estomas, idioblastos, tricomas.
+
+## Epidermis monoestratificada
+
+![Epidermis con diferentes tipos de cutícula @megíaspacheco2017](images/epidermis_cuticula.jpg){fig-align="center"}
+
+## Epidermis pluriestratificada
+
+::: columns
+::: {.column width="50%"}
+![velamen de la raíz aérea de una orquídea. @megíaspacheco2017](images/epidermis_velamen.png){fig-align="center"}
+:::
+::: {.column width="50%"}
+![Hoja de *Ficus elastica*](images/hoja_ficus.png){fig-align="center"} 
+:::
+:::
+
+## Referencias
+
+::: {#refs}
+:::
