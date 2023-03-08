@@ -1,0 +1,147 @@
+---
+title: "Histología II"
+subtitle: "Biología de las Plantas: laboratorio"
+author: "Álex Espinosa Correa"
+date: 2022-03-02
+
+bibliography: references-histologia-2.bib
+
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: true
+    logo: images/geobota_logo.png
+    footer: "[alexespinosaco](http://alexespinosaco.github.io)"
+---
+
+## Tejidos
+
+> Grupo de células organizadas en una unidad estructural y funcional. Las células componentes pueden ser similares (tejido simple) o variadas (tejido complejo). @evert2006
+
+::: columns
+::: {.column width="50%"}
+![Clasificación tradicional.](images/tejidos_tradicional.png){#tejidos-tradicional fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![Clasificación según permanencia, capacidad de división y tipos celulares que los componen.](images/tejidos_permanencia.png){#tejidos-permanencia fig-align="center"}
+:::
+:::
+
+::: footer
+@megíaspacheco2017
+:::
+
+## Tejidos
+
+::: columns
+::: {.column width="65%"}
+![Sistemas de tejidos en plantas. @nabors2006](images/tejidos_sistemas.png){#tejidos-sistemas fig-align="center"}
+:::
+
+::: {.column width="35%"}
+![Distribución de los tejidos primarios. @evert2013](images/tejidos_distribucion.png){#tejidos-distribucion fig-align="center"}
+:::
+:::
+
+## Colénquima
+
+> Tejido de soporte compuesto por células vivas más o menos alargadas con paredes primarias no lignificadas y engrosadas de manera desigual. @evert2006
+
+![Tipos de colénquima. @megíaspacheco2017](images/colenquima_tipos.png){#colenquima-tipos fig-align="center"}
+
+## Colénquima: ubicación
+
+![Distribución del colénquima. @evert2006](images/colenquima_ubicacion.png){#colenquima-ubicacion fig-align="center"}
+
+## Esclerénquima
+
+> Tejido de sostén compuesto por células de esclerénquima, incluidas fibras y esclereidas. @evert2013
+
+Células inicialmente vivas pero mueren al madurar. Pared secundaria muy endurecida y lignificada.
+
+![Fibras esclerenquimáticas y esclereida](images/esclerenquima.png){#esclerenquima fig-align="center"}
+
+## Esclerénquima: ubicación
+
+![Distribución del esclerénquima. @evert2006](images/esclerenquima_ubicacion.png){#esclerenquima-ubicacion fig-align="center"}
+
+## Esclereidas
+
+Células con pared secundaria muy gruesa y lignificada.
+
+::: columns
+::: {.column width="50%"}
+-   Astroesclereidas: células ramificadas en grado variable
+-   Braquiesclereidas: células cortas, isodiamétricas
+-   Filiformes: células largas y delgadas semejantes a fibras
+:::
+
+::: {.column width="50%"}
+-   Macroesclereidas: células alargadas en forma de barril
+-   Osteoesclereidas: células columnares con sus extremos agrandados
+-   Tricoesclereidas: células con paredes delgadas, semejantes a pelos
+:::
+:::
+
+## Esclereidas: tipos
+
+![Tipos de esclereidas. @arbo2019](images/esclerenquima_esclereidas.png){#esclerenquima-esclereidas fig-align="center"}
+
+## Fibras esclerenquimáticas
+
+Células alargadas con extremos puntiagudos. Pared celular secundaria y lignificación de grosos variable.
+
+![Tipos de fibras esclerenquimáticas. @megíaspacheco2017](images/esclerenquima_fibras.jpg){#esclerenquima-fibras fig-align="center"}
+
+## Fibras esclerenquimáticas o elementos vasculares
+
+![Comparación entre tráqueas (a-c), traqueidas (d) y fibras (e-f). @evert2013](images/vasos_fibras.png)
+
+## Xilema
+
+> Tejido vascular complejo a través del cual se conduce la mayor parte del agua y los minerales de una planta. @evert2013
+
+::: columns
+::: {.column width="50%"}
+Compuesto por:
+
+-   Tráqueas o vasos
+-   Traqueidas 
+-   Células parenquimáticas
+-   Fibras esclerenquimáticas
+:::
+
+::: {.column width="50%"}
+![@megíaspacheco2017](images/xilema_esquema.png){#xilema-esquema fig-align="center"}
+:::
+:::
+
+## Tráqueas y traqueidas
+
+::: columns
+::: {.column width="70%"}
+![Pricipales diferencias entre tráqueas y traqueidas](images/vasos_traqueidas_tabla.png){#vasos-traqueidas-tabla fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![](images/vasos_traqueidas_esquema.png){#vasos-traqueidas-esquema fig-align="center"}
+:::
+:::
+
+::: footer
+@megíaspacheco2017
+:::
+
+## Floema
+
+## Células cribosas y vasos cribosos
+
+## Haces vasculares
+
+# Procedimiento
+
+## Referencias
+
+::: {#refs}
+:::
