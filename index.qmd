@@ -1,5 +1,5 @@
 ---
-title: "Bienvenida"
+title: "Presentaciones"
 listing: 
   contents: presentaciones
   sort: "date desc"

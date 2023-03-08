@@ -7,15 +7,15 @@ website:
     style: docked
     search: true
     contents: 
-      - index.qmd
       - href: https://alexespinosaco.github.io/manual-laboratorio-biologia-plantas/
         text: Manual de laboratorio
-      - section: "Presentaciones"
-        contents: 
-          - presentaciones/histologia-I.qmd
+      - index.qmd
+      - presentaciones/histologia-I.qmd
+
+
   page-navigation: false
     
-link-external-icon: true
+link-external-icon: false
 link-external-newwindow: true
 date-format: iso
 csl: apa.csl
