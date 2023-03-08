@@ -121,11 +121,11 @@ Compuesto por:
 
 ::: columns
 ::: {.column width="70%"}
-![Pricipales diferencias entre tráqueas y traqueidas](images/vasos_traqueidas_tabla.png){#vasos-traqueidas-tabla fig-align="center"}
+![Pricipales diferencias entre tráqueas y traqueidas.](images/xilema_comparacion_tabla.png){#xilema-comparacion-tabla fig-align="center"}
 :::
 
 ::: {.column width="30%"}
-![](images/vasos_traqueidas_esquema.png){#vasos-traqueidas-esquema fig-align="center"}
+![](images/xilema_comparacion_esquema.png){#xilema-comparacion-esquema fig-align="center"}
 :::
 :::
 
@@ -133,9 +133,39 @@ Compuesto por:
 @megíaspacheco2017
 :::
 
+## Tráqueas y traqueidas
+
+::: columns
+::: {.column width="60%"}
+![Comparación entre traqueidas (a-b) y tráqueas (c-f). @evert2006](images/xilema_elementos.png){#vasos-traqueidas-comparación width=60% fig-align="center"}
+:::
+
+::: {.column width="40%"}
+![Engrosamiento en tráqueas y traqueidas. @megíaspacheco2017](images/xilema_engrosamientos.png){#xilema-engrosamientos fig-align="center"}
+:::
+:::
+
 ## Floema
 
-## Células cribosas y vasos cribosos
+> Tejido conductor de la savia elaborada de las plantas vasculares; compuesto por elementos cribosos, varios tipos de células del parénquima, fibras y esclereidas. @evert2013
+
+![@megíaspacheco2017](images/floema_esquema.png){#floema-esquema fig-align="center"}
+
+## Vasos cribosos y células cribosas
+
+::: columns
+::: {.column width="70%"}
+![Pricipales diferencias entre vasos cribosos y células cribosas.](images/floema_comparacion_tabla.png){#floema-comparacion-tabla fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![](images/floema_comparacion_esquema.png){#floema-comparacion-esquema fig-align="center"}
+:::
+:::
+
+::: footer
+@megíaspacheco2017
+:::
 
 ## Haces vasculares
 
