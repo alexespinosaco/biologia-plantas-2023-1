@@ -152,7 +152,7 @@ Son células vivas, indiferenciadas, poliédricas, con grandes núcleos y abunda
 :::
 
 ::: {.column width="50%"}
-![Cámbium suberoso.](images/cambium-suberoso.jpg){#cambium-suberoso.jpg fig-align="center"}
+![Cámbium suberoso.](images/cambium-suberoso.jpg){#cambium-suberoso fig-align="center"}
 :::
 :::
 
@@ -164,47 +164,112 @@ Son células vivas, indiferenciadas, poliédricas, con grandes núcleos y abunda
 
 ## Epidermis
 
-Corte transversal de hoja de *Dianthus caryophyllus* y *Ficus elastica* en fresco.  
+Corte transversal de hoja de *Dianthus caryophyllus* y *Ficus elastica* en fresco.\
 Epidermis monoestratificada y pluriestratificada.
+
+::: columns
+::: {.column width="30%"}
+![](images/hoja_dianthus.jpg){#hoja-dianthus fig-align="center"}
+:::
+
+::: {.column width="70%"}
+![](images/hoja_ficus2.jpg){#hoja-ficus2 fig-align="center"}
+:::
+:::
+
+::: footer
+[Plant Anatomy Database](https://anatomy.plb.ucdavis.edu/leaf#gallery-19) & [Photographic Atlas of Plant Anatomy](https://botweb.uwsp.edu/anatomy/images/dicotleafcrosssections/pages_c/anat1198new.htm)
+:::
 
 ## Estomas
 
-Corte transversal de hoja de *Ficus elastica* y *Nerium oleander* con Safranina y Azul Alcián.  
+Corte transversal de hoja de *Ficus elastica* y *Nerium oleander* con Safranina y Azul Alcián.\
 Cara abaxial, estomas y criptas estomáticas.
+
+![](images/estomas_lateral.png){#estomas-lateral fig-align="center"}
 
 ## Tipos de estomas
 
 Corte longitudinal con Safranina y Azul Alcián de epidermis abaxial de hoja de *Brassica oleracea*, *Coffea arabica*, *Dianthus caryophyllus*, *Tradescantia pallida*, o cualquier otra planta.
 
+![](images/estomas_tipos2.png){#estomas-tipos2 fig-align="center"}
+
 ## Tricomas
 
 Corte transversal con Safranina y Azul Alcián de hoja, peciolo o tallo de *Cannabis sativa*, *Nicotiana tabacum*, *Pelargonium sp.*, *Portulaca oleracea*, *Solanum lycopersicum*, *Solanum quitoense*, *Tillandsia recurvata* o cualquier otra planta.
 
+![](images/tricomas_fresco.png){#tricomas-fresco fig-align="center"}
+
 ## Clorénquima y parénquima de reserva
 
-Corte transversal con Safranina y Azul Alcián de hoja de Nerium oleander. Repetir con Lugol.  
+Corte transversal con Safranina y Azul Alcián de hoja de Nerium oleander. Repetir con Lugol.\
 Clorénquimam y parénquima de reserva.
+
+![](images/hoja-nerium.jpg){#hoja-nerium fig-align="center" width="50%"}
+
+::: footer
+[Michael W. Clayton](https://search.library.wisc.edu/digital/A5IZMXYNXH6K3T8H)
+:::
 
 ## Aerénquima
 
 Corte transversal con Safranina y Azul Alcián de hoja o tallo de *Cyperus papyrus*, pecíolo de *Canna sp.* o talo de *Egeria densa*.
 
+![](images/talo_egeria.png){#talo-egeria fig-align="center"}
+
+
+::: footer
+@otegui2007
+:::
+
 ## Hidrénquima
 
 Corte transversal con Safranina y Azul Alcián de hoja de *Aloe vera*.
+
+![](images/hoja_aloe.png){#hoja-aloe fig-align="center"}
+
+::: footer
+@otegui2007
+:::
 
 ## Meristemo apical
 
 Corte longitudinal con Safranina y Azul Alcián de meristemo apical de *Solenostemon scutellarioides*.
 
+![](images/coleus_apice.jpg){#coleus_apice fig-align="center"}
+
+::: footer
+[Plant Anatomy Database](https://anatomy.plb.ucdavis.edu/apex#gallery-4)
+:::
+
 ## Cámbium vascular
 
 Corte transversal con Safranina y Azul Alcián de tallo de *Aristolochia ringens*.
 
+::: columns
+::: {.column width="50%"}
+![](images/cambium-vascular2.jpg){#cambium-vascular2 fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](images/cambium-fascicular.jpg){#cambium-fascicular fig-align="center"}
+:::
+:::
+
+::: footer
+@megíaspacheco2017
+:::
+
 ## Cámbium suberoso
 
-Corte transversal con Safranina y Azul Alcián de tallo de *Pelargonium sp.*  
+Corte transversal con Safranina y Azul Alcián de tallo de *Pelargonium sp.*\
 Felógeno, súber o corcho, felodermis.
+
+![](images/tallo_pelargonium.png){#tallo-pelargonium fig-align="center" width="50%"}
+
+::: footer
+[Ami Neal](https://slideplayer.com/slide/5255979/)
+:::
 
 # ¿Preguntas?
 
