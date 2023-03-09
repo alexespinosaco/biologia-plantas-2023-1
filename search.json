@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Presentaciones",
     "section": "",
-    "text": "Histología I\n\n\nBiología de las Plantas: laboratorio\n\n\n\n\n\n\n\n\n\n2022-03-02\n\n\nÁlex Espinosa Correa\n\n\n\n\n\n\nNo matching items"
+    "text": "Histología I\n\n\nBiología de las Plantas: laboratorio\n\n\n\n\n\n\n\n\n\n2022-03-02\n\n\nÁlex Espinosa Correa\n\n\n\n\n\n\n  \n\n\n\n\nHistología II\n\n\nBiología de las Plantas: laboratorio\n\n\n\n\n\n\n\n\n\n2022-03-02\n\n\nÁlex Espinosa Correa\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentaciones/histologia-I.html#tejidos",
@@ -194,5 +194,229 @@
     "title": "Histología I",
     "section": "Referencias",
     "text": "Referencias\n\n\nArbo, M. M., & Gonzalez, A. M. (2019). Botánica Morfológica. http://www.biologia.edu.ar/botanica/index.html\n\n\nBeentje, H. J. (2016). The Kew plant glossary: an illustrated dictionary of plant terms (2nd ed). Kew publishing.\n\n\nEvert, R. F. (2006). Esau’s Plant Anatomy: Meristems, Cells, and Tissues of the Plant Body: Their Structure, Function, and Development (Third Edition). John Wiley & Sons, Inc. https://doi.org/10.1002/0470047380\n\n\nEvert, R. F., & Eichhorn, S. E. (2013). Raven biology of plants (Eighth edition). W.H. Freeman; Company Publishers.\n\n\nMegías Pacheco, M., Molist García, P., & Pombal Diego, M. Á. (2017). Atlas de histología vegetal y animal. https://mmegias.webs.uvigo.es/\n\n\nNabors, M. W. (2006). Introducción a la Botánica. Pearson Educación, S.A.\n\n\nOtegui, M. B., & Totaro, M. E. (2007). Atlas de histología vegetal (1st ed.). Editorial Universitaria de la Universidad Nacional de Misiones.\n\n\nSingh, G. (2019). Plant systematics: an integrated approach (4th ed.). CRC Press. https://www.routledge.com/Plant-Systematics-An-Integrated-Approach-Fourth-Edition/Singh/p/book/9780367779665\n\n\n\n\n\nhttp://alexespinosaco.github.io"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#tejidos",
+    "href": "presentaciones/histologia-II.html#tejidos",
+    "title": "Histología II",
+    "section": "Tejidos",
+    "text": "Tejidos\n\nGrupo de células organizadas en una unidad estructural y funcional. Las células componentes pueden ser similares (tejido simple) o variadas (tejido complejo). Evert (2006)\n\n\n\n\n\n\nClasificación tradicional.\n\n\n\n\n\n\nClasificación según permanencia, capacidad de división y tipos celulares que los componen.\n\n\n\n\n\nMegías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#tejidos-1",
+    "href": "presentaciones/histologia-II.html#tejidos-1",
+    "title": "Histología II",
+    "section": "Tejidos",
+    "text": "Tejidos\n\n\n\n\n\nSistemas de tejidos en plantas. Nabors (2006)\n\n\n\n\n\n\nDistribución de los tejidos primarios. Evert & Eichhorn (2013)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#colénquima",
+    "href": "presentaciones/histologia-II.html#colénquima",
+    "title": "Histología II",
+    "section": "Colénquima",
+    "text": "Colénquima\n\nTejido de soporte compuesto por células vivas más o menos alargadas con paredes primarias no lignificadas y engrosadas de manera desigual. Evert (2006)\n\n\nTipos de colénquima. Megías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#colénquima-ubicación",
+    "href": "presentaciones/histologia-II.html#colénquima-ubicación",
+    "title": "Histología II",
+    "section": "Colénquima: ubicación",
+    "text": "Colénquima: ubicación\n\nDistribución del colénquima. Evert (2006)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclerénquima",
+    "href": "presentaciones/histologia-II.html#esclerénquima",
+    "title": "Histología II",
+    "section": "Esclerénquima",
+    "text": "Esclerénquima\n\nTejido de sostén compuesto por células de esclerénquima, incluidas fibras y esclereidas. Evert & Eichhorn (2013)\n\nCélulas inicialmente vivas pero mueren al madurar. Pared secundaria muy endurecida y lignificada.\n\nFibras esclerenquimáticas y esclereida"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclerénquima-ubicación",
+    "href": "presentaciones/histologia-II.html#esclerénquima-ubicación",
+    "title": "Histología II",
+    "section": "Esclerénquima: ubicación",
+    "text": "Esclerénquima: ubicación\n\nDistribución del esclerénquima. Evert (2006)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclerénquima-esclereidas",
+    "href": "presentaciones/histologia-II.html#esclerénquima-esclereidas",
+    "title": "Histología II",
+    "section": "Esclerénquima: esclereidas",
+    "text": "Esclerénquima: esclereidas\nCélulas con pared secundaria muy gruesa y lignificada.\n\n\n\nAstroesclereidas: células ramificadas en grado variable\nBraquiesclereidas: células cortas, isodiamétricas\nFiliformes: células largas y delgadas semejantes a fibras\n\n\n\nMacroesclereidas: células alargadas en forma de barril\nOsteoesclereidas: células columnares con sus extremos agrandados\nTricoesclereidas: células con paredes delgadas, semejantes a pelos"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclerénquima-tipos-de-esclereidas",
+    "href": "presentaciones/histologia-II.html#esclerénquima-tipos-de-esclereidas",
+    "title": "Histología II",
+    "section": "Esclerénquima: tipos de esclereidas",
+    "text": "Esclerénquima: tipos de esclereidas\n\nTipos de esclereidas. Arbo & Gonzalez (2019)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclerénquima-fibras",
+    "href": "presentaciones/histologia-II.html#esclerénquima-fibras",
+    "title": "Histología II",
+    "section": "Esclerénquima: fibras",
+    "text": "Esclerénquima: fibras\nCélulas alargadas con extremos puntiagudos. Pared celular secundaria y lignificación de grosos variable.\n\nTipos de fibras esclerenquimáticas. Megías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclrénquima-o-xilema",
+    "href": "presentaciones/histologia-II.html#esclrénquima-o-xilema",
+    "title": "Histología II",
+    "section": "¿Esclrénquima o xilema?",
+    "text": "¿Esclrénquima o xilema?\n\nComparación entre tráqueas (a-c), traqueidas (d) y fibras (e-f). Evert & Eichhorn (2013)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#xilema",
+    "href": "presentaciones/histologia-II.html#xilema",
+    "title": "Histología II",
+    "section": "Xilema",
+    "text": "Xilema\n\nTejido vascular complejo a través del cual se conduce la mayor parte del agua y los minerales de una planta. Evert & Eichhorn (2013)\n\n\n\nCompuesto por:\n\nTráqueas o vasos\nTraqueidas\nCélulas parenquimáticas\nFibras esclerenquimáticas\n\n\n\n\n\nMegías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#xilema-tráqueas-y-traqueidas",
+    "href": "presentaciones/histologia-II.html#xilema-tráqueas-y-traqueidas",
+    "title": "Histología II",
+    "section": "Xilema: tráqueas y traqueidas",
+    "text": "Xilema: tráqueas y traqueidas\n\n\n\n\n\nPricipales diferencias entre tráqueas y traqueidas.\n\n\n\n\n\n\n\n\n\n\n\nMegías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#xilema-tráqueas-y-traqueidas-1",
+    "href": "presentaciones/histologia-II.html#xilema-tráqueas-y-traqueidas-1",
+    "title": "Histología II",
+    "section": "Xilema: tráqueas y traqueidas",
+    "text": "Xilema: tráqueas y traqueidas\n\n\n\n\n\nComparación entre traqueidas (a-b) y tráqueas (c-f). Evert (2006)\n\n\n\n\n\n\nEngrosamiento en tráqueas y traqueidas. Megías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#floema",
+    "href": "presentaciones/histologia-II.html#floema",
+    "title": "Histología II",
+    "section": "Floema",
+    "text": "Floema\n\nTejido conductor de la savia elaborada de las plantas vasculares; compuesto por elementos cribosos, varios tipos de células del parénquima, fibras y esclereidas. Evert & Eichhorn (2013)\n\n\nMegías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#floema-vasos-cribosos-y-células-cribosas",
+    "href": "presentaciones/histologia-II.html#floema-vasos-cribosos-y-células-cribosas",
+    "title": "Histología II",
+    "section": "Floema: vasos cribosos y células cribosas",
+    "text": "Floema: vasos cribosos y células cribosas\n\n\n\n\n\nPricipales diferencias entre vasos cribosos y células cribosas.\n\n\n\n\n\n\n\n\n\n\n\nMegías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#floema-placa-cribosa",
+    "href": "presentaciones/histologia-II.html#floema-placa-cribosa",
+    "title": "Histología II",
+    "section": "floema: placa cribosa",
+    "text": "floema: placa cribosa\nParte de la pared transversal o terminal que comunica dos vasos cribosos.\n\nPlaca criobosa en corte longitudinal y transversal. Arbo & Gonzalez (2019)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#haz-vascular",
+    "href": "presentaciones/histologia-II.html#haz-vascular",
+    "title": "Histología II",
+    "section": "Haz vascular",
+    "text": "Haz vascular\n\nPaquete de tejido que contiene xilema y floema primario (y procambium si aún está presente). Frecuentemente encerrado por una vaina de parénquima o esclérenquima. Evert & Eichhorn (2013)\n\n\nDisposición de los haces vasculares. Megías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#haces-vasculares",
+    "href": "presentaciones/histologia-II.html#haces-vasculares",
+    "title": "Histología II",
+    "section": "Haces vasculares",
+    "text": "Haces vasculares\n\nArbo & Gonzalez (2019)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#colénquima-1",
+    "href": "presentaciones/histologia-II.html#colénquima-1",
+    "title": "Histología II",
+    "section": "Colénquima",
+    "text": "Colénquima\nCortes transversales con Safranina y Azul Alcián de peciolos o tallos de Apium graveolens, Begonia spp., Bidens pilosa, Coriandrum sativum, Cucurbita máxima, Lactuca sativa, Mentha × piperita, M. spicata, Sambucus nigra y Taraxacum officinale."
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclerénquima-1",
+    "href": "presentaciones/histologia-II.html#esclerénquima-1",
+    "title": "Histología II",
+    "section": "Esclerénquima",
+    "text": "Esclerénquima\nCortes transversales con Safranina y Azul Alcián de tallos de Aristolochia ringens, Bidens pilosa y Cyperus papyrus y hojas de Sansevieria trifasciata y Pennisetum purpureum.\nFibras esclerenquimáticas"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclerénquima-2",
+    "href": "presentaciones/histologia-II.html#esclerénquima-2",
+    "title": "Histología II",
+    "section": "Esclerénquima",
+    "text": "Esclerénquima\nCortes transversales con Safranina y Azul Alcián del fruto Pyrus communis.\nBraquiesclereidas\n\n\nPhytoImages"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclerénquima-3",
+    "href": "presentaciones/histologia-II.html#esclerénquima-3",
+    "title": "Histología II",
+    "section": "Esclerénquima",
+    "text": "Esclerénquima\nCortes transversales con Safranina y Azul Alcián de las testas de Phaseolus vulgaris.\nMacroesclereidas, osteoesclereidas\n\n\nArbo & Gonzalez (2019)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#esclerénquima-4",
+    "href": "presentaciones/histologia-II.html#esclerénquima-4",
+    "title": "Histología II",
+    "section": "Esclerénquima",
+    "text": "Esclerénquima\nCortes transversales con Safranina y Azul Alcián de hojas de Monstera deliciosa.\nAstroesclereidas\n\n\nMegías Pacheco et al. (2017)"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#xilema-y-floema",
+    "href": "presentaciones/histologia-II.html#xilema-y-floema",
+    "title": "Histología II",
+    "section": "Xilema y Floema",
+    "text": "Xilema y Floema\nCortes transversales y longitudinales con Safranina y Azul Alcián de tallos de Aristolochia ringens y Cucurbita máxima.\nMetaxilema y protoxilema, diferentes tipos de engrosamientos.\nTubos cribosos o células cribosas, áreas cribosas o placas cribosas."
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#xilema-y-floema-1",
+    "href": "presentaciones/histologia-II.html#xilema-y-floema-1",
+    "title": "Histología II",
+    "section": "Xilema y Floema",
+    "text": "Xilema y Floema\nCortes transversales y longitudinales con Safranina y Azul Alcián de Pinus ssp.\nTraqueidas, engrosamiento tipo punteadura.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlant Anatomy Database & Photographic Atlas of Plant Anatomy"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#haces-vasculares-1",
+    "href": "presentaciones/histologia-II.html#haces-vasculares-1",
+    "title": "Histología II",
+    "section": "Haces vasculares",
+    "text": "Haces vasculares\nCortes transversales con Safranina y Azul Alcián de tallos de Dracaena sanderiana o Cordyline fruticosa.\nHaz anfivasal o perixilemático\n\n\nPhytoImages"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#haces-vasculares-2",
+    "href": "presentaciones/histologia-II.html#haces-vasculares-2",
+    "title": "Histología II",
+    "section": "Haces vasculares",
+    "text": "Haces vasculares\nCortes transversales con Safranina y Azul Alcián de tallos de Polypodium spp.\nHaz anficribal o perifloemático"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#haces-vasculares-3",
+    "href": "presentaciones/histologia-II.html#haces-vasculares-3",
+    "title": "Histología II",
+    "section": "Haces vasculares",
+    "text": "Haces vasculares\nCortes transversales con Safranina y Azul Alcián de tallos de Cyperus papyrus y Pennisetum purpureum.\nHaz colateral cerrado"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#haces-vasculares-4",
+    "href": "presentaciones/histologia-II.html#haces-vasculares-4",
+    "title": "Histología II",
+    "section": "Haces vasculares",
+    "text": "Haces vasculares\nCortes transversales con Safranina y Azul Alcián de tallos de Aristolochia ringens.\nHaz colateral abierto"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#haces-vasculares-5",
+    "href": "presentaciones/histologia-II.html#haces-vasculares-5",
+    "title": "Histología II",
+    "section": "Haces vasculares",
+    "text": "Haces vasculares\nCortes transversales con Safranina y Azul Alcián de tallos de Cucurbita máxima.\nHaz bicolateral\n\n\nPlant Anatomy Database"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#próximo-práctica",
+    "href": "presentaciones/histologia-II.html#próximo-práctica",
+    "title": "Histología II",
+    "section": "Próximo práctica",
+    "text": "Próximo práctica"
+  },
+  {
+    "objectID": "presentaciones/histologia-II.html#referencias",
+    "href": "presentaciones/histologia-II.html#referencias",
+    "title": "Histología II",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nArbo, M. M., & Gonzalez, A. M. (2019). Botánica Morfológica. http://www.biologia.edu.ar/botanica/index.html\n\n\nEvert, R. F. (2006). Esau’s Plant Anatomy: Meristems, Cells, and Tissues of the Plant Body: Their Structure, Function, and Development (Third Edition). John Wiley & Sons, Inc. https://doi.org/10.1002/0470047380\n\n\nEvert, R. F., & Eichhorn, S. E. (2013). Raven biology of plants (Eighth edition). W.H. Freeman; Company Publishers.\n\n\nMegías Pacheco, M., Molist García, P., & Pombal Diego, M. Á. (2017). Atlas de histología vegetal y animal. https://mmegias.webs.uvigo.es/\n\n\nNabors, M. W. (2006). Introducción a la Botánica. Pearson Educación, S.A.\n\n\n\n\n\nalexespinosaco"
   }
 ]
