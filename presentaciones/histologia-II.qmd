@@ -189,21 +189,117 @@ Parte de la pared transversal o terminal que comunica dos vasos cribosos.
 
 Cortes transversales con Safranina y Azul Alcián de peciolos o tallos de *Apium graveolens*, *Begonia spp.*, *Bidens pilosa*, *Coriandrum sativum*, *Cucurbita máxima*, *Lactuca sativa*, *Mentha × piperita*, *M. spicata*, *Sambucus nigra* y *Taraxacum officinale*.
 
-![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/tallo_apium_200x.png?raw=true)
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/tallo_apium_200x.png?raw=true){#tallo-apium fig-align="center"}
 
 ## Esclerénquima
 
-## Esclerénquima
+Cortes transversales con Safranina y Azul Alcián de tallos de *Aristolochia ringens*, *Bidens pilosa* y *Cyperus papyrus* y hojas de *Sansevieria trifasciata* y *Pennisetum purpureum*.\
+Fibras esclerenquimáticas
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/tallo_aristolochia_200x.png?raw=true){#tallo-aristolochia fig-align="center"}
 
 ## Esclerénquima
 
+Cortes transversales con Safranina y Azul Alcián del fruto *Pyrus communis*.\
+Braquiesclereidas
+
+![](images/esclerenquima_pyrus.jpg){#esclerenquima-pyrus fig-align="center"}
+
+::: footer
+[PhytoImages](http://www.phytoimages.siu.edu/imgs/paraman1/r/Rosaceae_Pyrus_communis_60225.html)
+:::
+
 ## Esclerénquima
+
+Cortes transversales con Safranina y Azul Alcián de las testas de *Phaseolus vulgaris*.\
+Macroesclereidas, osteoesclereidas
+
+![](images/esclerenquima_pisum.gif){#esclerenquima-pisum fig-align="center"}
+
+::: footer
+@arbo2019
+:::
+
+## Esclerénquima
+
+Cortes transversales con Safranina y Azul Alcián de hojas de *Monstera deliciosa*.\
+Astroesclereidas
+
+![](images/esclerenquima_camellia.jpg){#esclerenquima-camellia fig-align="center"}
+
+::: footer
+@megíaspacheco2017
+:::
 
 ## Xilema y Floema
 
+Cortes transversales y longitudinales con Safranina y Azul Alcián de tallos de *Aristolochia ringens* y *Cucurbita máxima*.\
+Metaxilema y protoxilema, diferentes tipos de engrosamientos.\
+Tubos cribosos o células cribosas, áreas cribosas o placas cribosas.
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/vascular_aristolochia_200x.png?raw=true){#vscular-aristolochia fig-align="center"}
+
 ## Xilema y Floema
+
+Cortes transversales y longitudinales con Safranina y Azul Alcián de *Pinus ssp*.\
+Traqueidas, engrosamiento tipo punteadura.
+
+::: columns
+::: {.column width="70%"}
+![](images/tallo_pinus.jpeg){#tallo-pinus width="80%" fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![](images/traqueida_pinus.jpg){#traqueida-pinus fig-align="center"}
+:::
+:::
+
+::: footer
+[Plant Anatomy Database](https://anatomy.plb.ucdavis.edu/search?term=Pinus#gallery-21) & [Photographic Atlas of Plant Anatomy](https://botweb.uwsp.edu/anatomy/images/xylemdevelopment/pages_c/Anat0190new.htm)
+:::
 
 ## Haces vasculares
+
+Cortes transversales con Safranina y Azul Alcián de tallos de *Dracaena sanderiana* o *Cordyline fruticosa*.  
+[Haz anfivasal o perixilemático]{.fragment}
+
+![](images/tallo_cordyline.jpg){#tallo-cordyline fig-align="center"}
+
+::: footer
+[PhytoImages](http://www.phytoimages.siu.edu/imgs/paraman1/r/Laxmanniaceae_Cordyline_sp_65137.html)
+:::
+
+## Haces vasculares
+
+Cortes transversales con Safranina y Azul Alcián de tallos de *Polypodium spp.*  
+[Haz anficribal o perifloemático]{.fragment}
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/vascular_lycopodiella_100x.png?raw=true){#tallo-aristolochia fig-align="center"}
+
+## Haces vasculares
+
+Cortes transversales con Safranina y Azul Alcián de tallos de *Cyperus papyrus* y *Pennisetum purpureum*.  
+[Haz colateral cerrado]{.fragment}
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/vascular_cyperus_400x.png?raw=true){#tallo-aristolochia fig-align="center"}
+
+## Haces vasculares
+
+Cortes transversales con Safranina y Azul Alcián de tallos de *Aristolochia ringens*.  
+[Haz colateral abierto]{.fragment}
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/tallo_aristolochia_200x.png?raw=true){#tallo-aristolochia fig-align="center"}
+
+## Haces vasculares
+
+Cortes transversales con Safranina y Azul Alcián de tallos de *Cucurbita máxima*.  
+[Haz bicolateral]{.fragment}
+
+![](images/tallo_cucurbita.jpg){#tallo-cucurbita fig-align="center"}
+
+::: footer
+[Plant Anatomy Database](https://anatomy.plb.ucdavis.edu/stem#gallery-19)
+:::
 
 # ¿Preguntas?
 
