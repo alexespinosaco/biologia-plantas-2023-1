@@ -14,6 +14,8 @@ format:
     footer: "[alexespinosaco](http://alexespinosaco.github.io)"
 ---
 
+# {background-image="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/tallo_cyperus_200x.png?raw=true"}
+
 ## Tejidos
 
 > Grupo de células organizadas en una unidad estructural y funcional. Las células componentes pueden ser similares (tejido simple) o variadas (tejido complejo). @evert2006
