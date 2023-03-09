@@ -11,7 +11,7 @@ format:
     slide-number: true
     preview-links: true
     logo: images/geobota_logo.png
-    footer: <http://alexespinosaco.github.io>
+    footer: "[alexespinosaco](http://alexespinosaco.github.io)"
 ---
 
 ## Tejidos

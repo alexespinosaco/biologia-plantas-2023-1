@@ -2,7 +2,7 @@
 title: "Histología II"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
-date: 2022-03-02
+date: 2022-03-09
 
 bibliography: references-histologia-2.bib
 
