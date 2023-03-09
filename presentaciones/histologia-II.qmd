@@ -66,7 +66,7 @@ Células inicialmente vivas pero mueren al madurar. Pared secundaria muy endurec
 
 ![Distribución del esclerénquima. @evert2006](images/esclerenquima_ubicacion.png){#esclerenquima-ubicacion fig-align="center"}
 
-## Esclereidas
+## Esclerénquima: esclereidas
 
 Células con pared secundaria muy gruesa y lignificada.
 
@@ -84,17 +84,17 @@ Células con pared secundaria muy gruesa y lignificada.
 :::
 :::
 
-## Esclereidas: tipos
+## Esclerénquima: tipos de esclereidas
 
 ![Tipos de esclereidas. @arbo2019](images/esclerenquima_esclereidas.png){#esclerenquima-esclereidas fig-align="center"}
 
-## Fibras esclerenquimáticas
+## Esclerénquima: fibras
 
 Células alargadas con extremos puntiagudos. Pared celular secundaria y lignificación de grosos variable.
 
 ![Tipos de fibras esclerenquimáticas. @megíaspacheco2017](images/esclerenquima_fibras.jpg){#esclerenquima-fibras fig-align="center"}
 
-## Fibras esclerenquimáticas o elementos vasculares
+## ¿Esclrénquima o xilema?
 
 ![Comparación entre tráqueas (a-c), traqueidas (d) y fibras (e-f). @evert2013](images/vasos_fibras.png)
 
@@ -107,7 +107,7 @@ Células alargadas con extremos puntiagudos. Pared celular secundaria y lignific
 Compuesto por:
 
 -   Tráqueas o vasos
--   Traqueidas 
+-   Traqueidas
 -   Células parenquimáticas
 -   Fibras esclerenquimáticas
 :::
@@ -117,7 +117,7 @@ Compuesto por:
 :::
 :::
 
-## Tráqueas y traqueidas
+## Xilema: tráqueas y traqueidas
 
 ::: columns
 ::: {.column width="70%"}
@@ -133,11 +133,11 @@ Compuesto por:
 @megíaspacheco2017
 :::
 
-## Tráqueas y traqueidas
+## Xilema: tráqueas y traqueidas
 
 ::: columns
 ::: {.column width="60%"}
-![Comparación entre traqueidas (a-b) y tráqueas (c-f). @evert2006](images/xilema_elementos.png){#vasos-traqueidas-comparación width=60% fig-align="center"}
+![Comparación entre traqueidas (a-b) y tráqueas (c-f). @evert2006](images/xilema_elementos.png){#vasos-traqueidas-comparación width="60%" fig-align="center"}
 :::
 
 ::: {.column width="40%"}
@@ -151,7 +151,7 @@ Compuesto por:
 
 ![@megíaspacheco2017](images/floema_esquema.png){#floema-esquema fig-align="center"}
 
-## Vasos cribosos y células cribosas
+## Floema: vasos cribosos y células cribosas
 
 ::: columns
 ::: {.column width="70%"}
@@ -167,9 +167,47 @@ Compuesto por:
 @megíaspacheco2017
 :::
 
+## floema: placa cribosa
+
+Parte de la pared transversal o terminal que comunica dos vasos cribosos.
+
+![Placa criobosa en corte longitudinal y transversal. @arbo2019](images/floema_placa_cribosa.png){#floema-placa-cribosa fig-align="center"}
+
+## Haz vascular
+
+> Paquete de tejido que contiene xilema y floema primario (y procambium si aún está presente). Frecuentemente encerrado por una vaina de parénquima o esclérenquima. @evert2013
+
+![Disposición de los haces vasculares. @megíaspacheco2017](images/haces_disposicion_esquema.png){#haces-disposicion-esquema fig-align="center"}
+
 ## Haces vasculares
 
+![@arbo2019](images/haces_disposicion.png){#haces-disposicion width="80%" fig-align="center"}
+
 # Procedimiento
+
+## Colénquima
+
+Cortes transversales con Safranina y Azul Alcián de peciolos o tallos de *Apium graveolens*, *Begonia spp.*, *Bidens pilosa*, *Coriandrum sativum*, *Cucurbita máxima*, *Lactuca sativa*, *Mentha × piperita*, *M. spicata*, *Sambucus nigra* y *Taraxacum officinale*.
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/tallo_apium_200x.png?raw=true)
+
+## Esclerénquima
+
+## Esclerénquima
+
+## Esclerénquima
+
+## Esclerénquima
+
+## Xilema y Floema
+
+## Xilema y Floema
+
+## Haces vasculares
+
+# ¿Preguntas?
+
+## Próximo práctica
 
 ## Referencias
 
