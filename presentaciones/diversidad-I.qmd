@@ -1,0 +1,105 @@
+---
+title: "Diversidad I"
+subtitle: "Biología de las Plantas: laboratorio"
+author: "Álex Espinosa Correa"
+date: 2022-03-23
+
+bibliography: references-diversidad-1.bib
+
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: true
+    logo: images/geobota_logo.png
+    footer: "[alexespinosaco](http://alexespinosaco.github.io)"
+---
+
+## Anthocerophyta
+
+
+## Anthocerophyta: ciclo de vida
+
+
+## Marchantiophyta
+
+
+## Marchantiophyta: ciclo de vida
+
+
+## Bryophyta
+
+
+## Bryophyta: ciclo de vida
+
+
+## Lycopodiophyta
+
+
+## Lycopodiophyta: ciclo de vida
+
+
+## Monilophyta
+
+
+## Monilophyta: ciclo de vida
+
+
+
+# Procedimiento
+
+## Anthocerophyta
+
+-   Identifique y describa las características del gametofito y  el esporofito.
+
+-   Cortes transversales con Safranina y Azul Alcián del gametofio y esporofito de Anthocerophyta.
+
+-   Montaje húmedo de esporas de Anthocerophyta. 
+
+## Marchantiophyta
+
+-   Identifique y describa las características del gametofito y el esporofito.
+
+-   Cortes transversales con Safranina y Azul Alcián del gametofio y esporofito de Marchantiophyta.
+
+-   Montaje húmedo de esporas de Marchantiophyta. 
+
+## Bryophyta
+
+-   Identifique y describa las características del gametofito y el esporofito.
+
+-   Cortes transversales con Safranina y Azul Alcián del gametofio y esporofito de Bryophyta.
+
+-   Montaje húmedo de esporas de Bryophyta. 
+
+## Lycopodiophyta
+
+-   Identifique y describa la orientación de los ejes, la disposición y forma de las microfilas, posición y forma de los estróbilos.
+
+-   Cortes transversales con Safranina y Azul Alcián de tallos de Lycopodium.
+
+-   Montaje húmedo de esporas de Lycopodium. 
+
+## Monilophyta
+
+-   En Equisetum identifique y describa la orientación y forma de los ejes, la disposición de las megafilas, la posición y la forma de los estróbilos.
+
+-   Cortes transversales con Safranina y Azul Alcián de tallos de Equisetum.
+
+-   Montaje húmedo de esporas de Equisetum. 
+
+## Monilophyta
+
+-   En diferentes Monilophyta (excepto Equisetum) identifique y describa la orientación de los ejes, forma y complejidad de las frondes, vernación, presencia de pelos y escamas, etc. Además identifique y describa presencia y formas de los soros e indusio.
+
+-   Cortes transversales con Safranina y Azul Alcián de tallos de Monilophyta (excepto Equisetum).
+
+-   Montaje húmedo de esporas de Monilophyta (excepto Equisetum). 
+
+# ¿Preguntas?
+
+## Próximo práctica
+
+## Referencias
+
+::: {#refs}
+:::
