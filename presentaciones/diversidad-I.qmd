@@ -14,46 +14,137 @@ format:
     footer: "[alexespinosaco](http://alexespinosaco.github.io)"
 ---
 
+## Embryophyta
+
+::: columns
+::: {.column width="50%"}
+-   Alternancia de generaciones
+    -   Gametófito
+    -   Esporófito
+-   Embrión
+-   Gametangios
+    -   Anteridios
+    -   Arquegonios
+-   Cuticula
+-   Parénquima
+:::
+
+::: {.column width="50%"}
+![](images/embryophyta.jpg){#embryophyta fig-align="center" width="80%"}
+:::
+:::
+
+## Alternancia de generaciones
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/embryophyta_ciclo.jpg?raw=true){#embryophyta-ciclo fig-align="center"}
+
+## Embryophyta: diversidad y relaciones
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/viridiplantae_arbol.jpg?raw=true){#viridiplante-arbol-1 fig-align="center"}
+
+## Embryophyta: diversidad y relaciones
+
+![](images/viridiplante_arbol.jpg){#viridiplante-arbol-2 fig-align="center"}
+
+## Embryophyta
+
+::: columns
+::: {.column width="50%"}
+-   Bryophyta *s. l.*
+    -   Anthocerophyta
+    -   Setaphyta
+        -   Marchantiophyta
+        -   Bryophyta *s. s.*
+:::
+
+::: {.column width="50%"}
+-   Tracheophyta
+    -   Lycopodiophyta
+    -   Euphyllophyta
+        -   Monilophyta
+        -   Embryophyta
+            -   Gimnospermae
+            -   Angiospermae
+:::
+:::
+
 ## Anthocerophyta
 
+::: columns
+::: {.column width="50%"}
+-   Gametófito taloso (fase dominante)
+-   Esporófito
+    -   aéreo, alargado, cilíndrico, fotosintético y con crecimiento indeterminado
+    -   dehiscencia longitudinal
+    -   Columela de tejido estéril
+:::
+
+::: {.column width="50%"}
+![](images/anthocerophyta.jpg){#anthocerophyta fig-align="center"}
+:::
+:::
 
 ## Anthocerophyta: ciclo de vida
 
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/anthocerotophyta_morfologia.jpg?raw=true){#anthocerophyta_morfologia fig-align="center"}
 
 ## Marchantiophyta
 
+::: columns
+::: {.column width="50%"}
+:::
+
+::: {.column width="50%"}
+:::
+:::
 
 ## Marchantiophyta: ciclo de vida
 
-
 ## Bryophyta
 
+::: columns
+::: {.column width="50%"}
+:::
+
+::: {.column width="50%"}
+:::
+:::
 
 ## Bryophyta: ciclo de vida
 
-
 ## Lycopodiophyta
 
+::: columns
+::: {.column width="50%"}
+:::
+
+::: {.column width="50%"}
+:::
+:::
 
 ## Lycopodiophyta: ciclo de vida
 
-
 ## Monilophyta
 
+::: columns
+::: {.column width="50%"}
+:::
+
+::: {.column width="50%"}
+:::
+:::
 
 ## Monilophyta: ciclo de vida
-
-
 
 # Procedimiento
 
 ## Anthocerophyta
 
--   Identifique y describa las características del gametofito y  el esporofito.
+-   Identifique y describa las características del gametofito y el esporofito.
 
 -   Cortes transversales con Safranina y Azul Alcián del gametofio y esporofito de Anthocerophyta.
 
--   Montaje húmedo de esporas de Anthocerophyta. 
+-   Montaje húmedo de esporas de Anthocerophyta.
 
 ## Marchantiophyta
 
@@ -61,7 +152,7 @@ format:
 
 -   Cortes transversales con Safranina y Azul Alcián del gametofio y esporofito de Marchantiophyta.
 
--   Montaje húmedo de esporas de Marchantiophyta. 
+-   Montaje húmedo de esporas de Marchantiophyta.
 
 ## Bryophyta
 
@@ -69,7 +160,7 @@ format:
 
 -   Cortes transversales con Safranina y Azul Alcián del gametofio y esporofito de Bryophyta.
 
--   Montaje húmedo de esporas de Bryophyta. 
+-   Montaje húmedo de esporas de Bryophyta.
 
 ## Lycopodiophyta
 
@@ -77,7 +168,7 @@ format:
 
 -   Cortes transversales con Safranina y Azul Alcián de tallos de Lycopodium.
 
--   Montaje húmedo de esporas de Lycopodium. 
+-   Montaje húmedo de esporas de Lycopodium.
 
 ## Monilophyta
 
@@ -85,7 +176,7 @@ format:
 
 -   Cortes transversales con Safranina y Azul Alcián de tallos de Equisetum.
 
--   Montaje húmedo de esporas de Equisetum. 
+-   Montaje húmedo de esporas de Equisetum.
 
 ## Monilophyta
 
@@ -93,7 +184,7 @@ format:
 
 -   Cortes transversales con Safranina y Azul Alcián de tallos de Monilophyta (excepto Equisetum).
 
--   Montaje húmedo de esporas de Monilophyta (excepto Equisetum). 
+-   Montaje húmedo de esporas de Monilophyta (excepto Equisetum).
 
 # ¿Preguntas?
 
@@ -103,3 +194,7 @@ format:
 
 ::: {#refs}
 :::
+
+## Imágenes
+
+[\@embryophyta](https://commons.wikimedia.org/wiki/File:Plants.jpg)
