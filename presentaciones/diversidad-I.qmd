@@ -18,6 +18,7 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
+
 -   Alternancia de generaciones
     -   Gametófito
     -   Esporófito
@@ -27,10 +28,13 @@ format:
     -   Arquegonios
 -   Cuticula
 -   Parénquima
+
 :::
 
 ::: {.column width="50%"}
+
 ![](images/embryophyta.jpg){#embryophyta fig-align="center" width="80%"}
+
 :::
 :::
 
@@ -50,14 +54,17 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
+
 -   Bryophyta *s. l.*
     -   Anthocerophyta
     -   Setaphyta
         -   Marchantiophyta
         -   Bryophyta *s. s.*
+
 :::
 
 ::: {.column width="50%"}
+
 -   Tracheophyta
     -   Lycopodiophyta
     -   Euphyllophyta
@@ -65,6 +72,7 @@ format:
         -   Embryophyta
             -   Gimnospermae
             -   Angiospermae
+
 :::
 :::
 
@@ -72,15 +80,19 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
+
 -   Gametófito taloso (fase dominante)
 -   Esporófito
     -   aéreo, alargado, cilíndrico, fotosintético y con crecimiento indeterminado
     -   dehiscencia longitudinal
     -   Columela de tejido estéril
+
 :::
 
 ::: {.column width="50%"}
+
 ![](images/anthocerophyta.jpg){#anthocerophyta fig-align="center"}
+
 :::
 :::
 
@@ -92,45 +104,230 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
+
+-   Gametófito folioso o taloso (fase dominante)
+-   Esporofito pequeño, no fotosintético y de corta duración
+-   Esporangio (cápsula)
+-   Cuerpos oleíferos
+-   Eláteres
+
 :::
 
 ::: {.column width="50%"}
+
+![](images/marchantiophyta.jpg){#marchantiophyta fig-align="center" width="80%"}
+
 :::
 :::
 
-## Marchantiophyta: ciclo de vida
-
-## Bryophyta
+## Marchantiophyta: talosas
 
 ::: columns
 ::: {.column width="50%"}
+
+-   Rizoides uniseriados y filamentosos
+-   Poros
+-   Copas (reproducción asexual)
+-   Anteridióforos
+-   Arquegonióforo
+
 :::
 
 ::: {.column width="50%"}
+![](images/marchantiophyta_talosas.jpg){#marchantiophyta-talosas fig-align="center"}
+:::
+:::
+
+## Marchantiophyta: foliosas
+
+::: columns
+::: {.column width="50%"}
+
+-   Eje dorsiventral a forma de *tallo* con tres filas de *hojas* de tamaño variable
+-   Anteridios en ramas laterales (androceo)
+-   Arquegonios en el extremo del eje (perianto)
+:::
+
+::: {.column width="50%"}
+
+![](images/marchantiophyta_foliosa_1.jpg){#marchantiophyta-foliosa-1 fig-align="center"}
+![](images/marchantiophyta_foliosa_2.png){#marchantiophyta-foliosa-2 fig-align="center"}
+
+:::
+:::
+
+## Marchantiophyta: - ciclo de vida
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/marchantiophyta_ciclo.png?raw=true){#marchantiophyta-ciclo fig-align="center"}
+
+## Bryophyta {.smaller}
+
+::: columns
+::: {.column width="50%"}
+
+-   Gametófito folioso (fase dominante)
+    -   Eje erecto o rastrero (caulidio)
+    -   *Hojas* pequeñas, delgadas y sésiles (filidios), con costa
+    -   Rizoides pluricelulares y ramificados
+-   Esporófito aéreo y alargado
+    -   Seta, opérculo y caliptra
+- Hidroides y Leptoides (conducción)
+
+:::
+
+::: {.column width="50%"}
+
+![](images/bryophyta.jpg){#bryophyta-ciclo fig-align="center"}
+
 :::
 :::
 
 ## Bryophyta: ciclo de vida
 
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/briophyta_ciclo.png?raw=true){#briophyta-ciclo fig-align="center"}
+
+## Tracheophyta
+
+::: columns
+::: {.column width="50%"}
+
+-   Esporofito (fase dominante)
+    -   ramificado e independiente de vida larga
+-   Células con pared secundaria lignificada
+-   Esclerénquima y colénquima
+-   Xilema y floema
+-   Raíces verdaderas con endodermis
+
+:::
+
+::: {.column width="50%"}
+
+![](images/tracheophyta.jpg){#tracheophyta fig-align="center" width="80%"}
+
+:::
+:::
+
 ## Lycopodiophyta
 
 ::: columns
 ::: {.column width="50%"}
+
+-   Raíces bipodales con protoxilema endarco
+-   Tallo con protoxilema exarco
+-   Hojas licofilas o micrófilas
+-   Lycopodiales
+    -   Lycopodiaceae
+-   Isoetales
+    -   Isoetaceae
+    -   Sellaginellaceae
+
 :::
 
 ::: {.column width="50%"}
+
+![](images/lycopodiophyta.jpg){#lycopodiophyta fig-align="center" width="70%"}
+
 :::
 :::
 
-## Lycopodiophyta: ciclo de vida
+## Lycopodiales
+
+::: columns
+::: {.column width="50%"}
+
+-   Hierbas erectas, postradas o pendulas
+-   Microfilos espiralados o verticilados
+-   Homospóricos
+-   Esporangios en la cara adaxial de los esporofilos (estrobilos cuando están agrupados)
+-   Raiz y tallo dicotómicamente ramificados
+
+:::
+
+::: {.column width="50%"}
+
+![](images/lycopodiaceae.jpg){#lycopodiales fig-align="center"}
+
+:::
+:::
+
+## Lycopodiales: ciclo de vida
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/lycopodium_ciclo.png?raw=true){#lycopodiales-ciclo fig-align="center"}
+
+## Isoetales
+
+::: columns
+::: {.column width="50%"}
+
+-   Presencia de ligula
+-   Heterospóricos
+    -   Megasporas producidas en megasporocito
+    -   Microsporas producidas en microsporocitos
+-   Endospóricos (gametofito se desarrolla dentro de la pared de esporas)
+
+:::
+
+::: {.column width="50%"}
+
+![](images/heterosporia.jpg){#heterosporia fig-align="center"}
+
+:::
+:::
+
+## Isoetaceae
+
+::: columns
+::: {.column width="50%"}
+
+-   Usualmente acuáticas (parcialmente sumergidas)
+-   Microfilos en espiral, ensanchados en la base y apicalmente lineales a aciculares. 
+-   Esporangios en la cara adaxial de los esporofilos
+
+:::
+
+::: {.column width="50%"}
+
+![](images/isoetaceae.jpg){#lycopodiales fig-align="center"}
+
+:::
+:::
+
+## Sellaginellaceae
+
+::: columns
+::: {.column width="50%"}
+
+-   Hierbas erectas a postradas
+-   Microfilos en espiral, homomorficos (isofilia) o dimorficos (anisofilia)
+-   Esporofilos en estrobilos
+-   Megasporangio en megasporofilos y microsporangios en microsporofilos
+
+:::
+
+::: {.column width="50%"}
+
+![](images/sellaginellaceae.jpg){#lycopodiales fig-align="center"}
+
+:::
+:::
+
+## Sellaginellaceae: ciclo de vida
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/selaginella_ciclo.png?raw=true){#selaginella-ciclo fig-align="center"}
+
 
 ## Monilophyta
 
 ::: columns
 ::: {.column width="50%"}
+
+
+
 :::
 
 ::: {.column width="50%"}
+
+
+
 :::
 :::
 
@@ -197,4 +394,7 @@ format:
 
 ## Imágenes
 
-[\@embryophyta](https://commons.wikimedia.org/wiki/File:Plants.jpg)
+[@embryophyta](https://commons.wikimedia.org/wiki/File:Plants.jpg)
+[@marchantiophyta](https://commons.wikimedia.org/wiki/File:Assortment_of_Hepaticae_from_Kunstformen_der_Natur_(1904),_plate_82.jpg)
+[@tracheophyta](https://commons.wikimedia.org/wiki/File:Tracheophyta.jpg)
+[@lycopodiophyta](https://es.wikipedia.org/wiki/Lycophyta)
