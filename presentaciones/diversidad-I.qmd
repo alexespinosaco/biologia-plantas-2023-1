@@ -320,18 +320,111 @@ format:
 ::: columns
 ::: {.column width="50%"}
 
+-   Sifonostela
+-   Protoxilema mesarco
 
+-   Divisiones:
+    -   Equisetopsida
+    -   Psilotopsida
+    -   Marattiopsida
+    -   Polypodiopsida
 
 :::
 
 ::: {.column width="50%"}
 
-
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/vascular_organizacion.png?raw=true){#vascular_organizacion fig-align="center" width="70%"}
 
 :::
 :::
 
-## Monilophyta: ciclo de vida
+## Equisetopsida
+
+::: columns
+::: {.column width="50%"}
+
+-   Tallos acanalados
+-   Hojas reducidas, verticiladas y marginalmente fusionadas
+-   Esporangióforos en estróbilos
+-   Esporas fotosintéticas con eláteres
+
+:::
+
+::: {.column width="50%"}
+
+![](images/equisetopsida.jpg){#equisetopsida fig-align="center"}
+
+:::
+:::
+
+## Equisetopsida: ciclo de vida
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/equisetum_ciclo.png?raw=true){#equisetopsida-ciclo fig-align="center"}
+
+## Psilotopsida
+
+::: columns
+::: {.column width="50%"}
+
+-   Gametofito no fotosintético y subterráneo
+-   Esporangio eusporangiado ubicado adaxialmente
+-   Raíz sin pelos radicales/ramificaciones o ausente
+
+-   Ordenes:
+    -   Ophioglossales
+    -   Psilotales
+
+:::
+
+::: {.column width="50%"}
+
+![](images/psilotopsida.jpg){#psilotopsida fig-align="center"}
+
+:::
+:::
+
+## Marattiopsida
+
+::: columns
+::: {.column width="50%"}
+
+-   Esporangios eusporangiados fusionados formando un sinangio
+-   Sifonostela policíclica
+-   Frondas
+-   Soros abaxiales, intramarginales, exindusiados (sin inducio).
+-   Canales mucilaginoso
+
+:::
+
+::: {.column width="50%"}
+
+![](images/marattiopsida.jpg){#marattiopsida fig-align="center"}
+
+:::
+:::
+
+## Polypodiopsida
+
+::: columns
+::: {.column width="50%"}
+
+-   Esporangio leptosporangiado
+-   Soros con o sin indusio
+-   Frondas con prefoliación circinada
+-   La mayoría presenta rizomas
+
+:::
+
+::: {.column width="50%"}
+
+![](images/polypodiopsida_cyatheales.jpg){#polypodiopsida-cyatheales fig-align="center"}
+
+:::
+:::
+
+## Polypodiopsida: ciclo de vida
+
+![](https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/polypodium_ciclo.png?raw=true){#polypodiopsida-ciclo fig-align="center"}
 
 # Procedimiento
 
