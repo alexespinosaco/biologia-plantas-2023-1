@@ -1,5 +1,5 @@
 ---
-title: "Laboratorio"
+title: "Biología de las Plantas: Laboratorio"
 
 listing: 
   contents: presentaciones
@@ -8,5 +8,5 @@ listing:
   fields: [image, title, description, date]
 ---
 
-Esta página contiene las presentaciones del laboratorio de Biología de las Plantas 2023-1.
+Esta página contiene las presentaciones del laboratorio de Biología de las Plantas de la Universidad de Antioquia, 2023-1.
 
