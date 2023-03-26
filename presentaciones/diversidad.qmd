@@ -1,10 +1,10 @@
 ---
-title: "Diversidad I"
+title: "Diversidad"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
 date: 2022-03-23
 
-bibliography: references-diversidad-1.bib
+bibliography: references-diversidad.bib
 
 format: 
   revealjs:
