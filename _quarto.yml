@@ -2,19 +2,42 @@ project:
   type: website
   
 website:
-  title: "Biología de las Plantas: laboratorio"
+  title: "Biología de las Plantas"
+  description: |
+    Website para Biología de las Plantas (Laboratorio) de la Universidad de Antioquia, 2023-1
+  site-url: https://alexespinosaco.github.io/biologia-plantas
+  repo-url: https://github.com/alexespinosaco/biologia-plantas
+  #page-navigation: true
+  page-footer: 
+    center: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es) 2023, Álex Espinosa-Correa"
+
+  open-graph: true
+  twitter-card: 
+    creator: "@alexespinosaco"
+    card-style: summary_large_image
+
+
   sidebar: 
+    subtitle: "Laboratorio"
     style: docked
+    logo: images/bldp.png
     search: true
+    pinned: true
+    align: center
+    tools: 
+      - icon: github
+        href: https://github.com/alexespinosaco/biologia-plantas
     contents: 
+      - href: index.qmd
+        text: Inicio
       - href: https://alexespinosaco.github.io/manual-laboratorio-biologia-plantas/
         text: Manual de laboratorio
-      - index.qmd
-      - presentaciones/histologia-I.qmd
+      - section: "Presentaciones"
+        contents: 
+          - href: presentaciones/histologia-I.qmd
+          - href: presentaciones/histologia-II.qmd
+          - href: presentaciones/diversidad.qmd
 
-
-  page-navigation: false
-    
 link-external-icon: false
 link-external-newwindow: true
 date-format: iso
@@ -22,7 +45,7 @@ csl: apa.csl
 
 format: 
   html: 
-   theme: minty
+   theme: 
+     light: flaty
+     dark: darkly
    toc: true
-   link-external-icon: true
-   link-external-newwindow: true

@@ -1,9 +1,12 @@
 ---
-title: "Presentaciones"
+title: "Laboratorio"
+
 listing: 
   contents: presentaciones
+  type: grid
   sort: "date desc"
-  
+  fields: [image, title, description, date]
 ---
 
+Esta página contiene las presentaciones del laboratorio de Biología de las Plantas 2023-1.
 
