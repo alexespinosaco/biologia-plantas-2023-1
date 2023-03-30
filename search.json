@@ -452,7 +452,7 @@
     "href": "presentaciones/diversidad.html#embryophyta-1",
     "title": "Diversidad",
     "section": "Embryophyta",
-    "text": "Embryophyta\n\n\n\nBryophyta s. l.\n\nAnthocerophyta\nSetaphyta\n\nMarchantiophyta\nBryophyta s. s.\n\n\n\n\n\nTracheophyta\n\nLycopodiophyta\nEuphyllophyta\n\nMonilophyta\nEmbryophyta\n\nGimnospermae\nAngiospermae"
+    "text": "Embryophyta\n\n\n\nBryophyta s. l.\n\nAnthocerophyta\nSetaphyta\n\nMarchantiophyta\nBryophyta s. s.\n\n\n\n\n\nTracheophyta\n\nLycopodiophyta\nEuphyllophyta\n\nMonilophyta\nSpermatophyta\n\nGimnospermae\nAngiospermae"
   },
   {
     "objectID": "presentaciones/diversidad.html#anthocerophyta",
@@ -567,6 +567,13 @@
     "text": "Sellaginellaceae: ciclo de vida\n\n\nEvert & Eichhorn (2013)"
   },
   {
+    "objectID": "presentaciones/diversidad.html#euphyllophyta",
+    "href": "presentaciones/diversidad.html#euphyllophyta",
+    "title": "Diversidad",
+    "section": "Euphyllophyta",
+    "text": "Euphyllophyta\n\n\n\nHojas eufilas o megafilas\nLaguna foliar\nVenación\nRaíz monopodial\nEndodermis\nPericiclo"
+  },
+  {
     "objectID": "presentaciones/diversidad.html#monilophyta",
     "href": "presentaciones/diversidad.html#monilophyta",
     "title": "Diversidad",
@@ -616,6 +623,48 @@
     "text": "Polypodiopsida: ciclo de vida\n\n\nEvert & Eichhorn (2013)"
   },
   {
+    "objectID": "presentaciones/diversidad.html#spermatophyta",
+    "href": "presentaciones/diversidad.html#spermatophyta",
+    "title": "Diversidad",
+    "section": "Spermatophyta",
+    "text": "Spermatophyta\n\n\n\nSemilla\nHeterosporia\nReducción de la megaspora\nRetención de la megaspora\nEndosporia\nTegumento\nPolen"
+  },
+  {
+    "objectID": "presentaciones/diversidad.html#gymnospermae",
+    "href": "presentaciones/diversidad.html#gymnospermae",
+    "title": "Diversidad",
+    "section": "Gymnospermae",
+    "text": "Gymnospermae\n\n\n\nÓvulos y semillas en la superficie de hojas modificadas (esporofilas)\nEstructuras reproductivas generalmente unisexuales y anemógamas\nXilema con traqueidas\nCycadophyta, Ginkgophyta y Coniferophyta\n\n\n\n\n\n\n\n\n\n\nBrockhaus’ Konversations-Lexikon (1892)"
+  },
+  {
+    "objectID": "presentaciones/diversidad.html#cycadophyta",
+    "href": "presentaciones/diversidad.html#cycadophyta",
+    "title": "Diversidad",
+    "section": "Cycadophyta",
+    "text": "Cycadophyta\n\n\n\nTallo corto y erecto\nHojas compuestas (pinnadas) espiraladas\nDioicas (conos o estrobilos masculinos y femeninos)\nCycadaceae y Zamiaceae\n\n\n\n\n\n\n\n\n\n\nSimpson (2019)"
+  },
+  {
+    "objectID": "presentaciones/diversidad.html#coniferophyta",
+    "href": "presentaciones/diversidad.html#coniferophyta",
+    "title": "Diversidad",
+    "section": "Coniferophyta",
+    "text": "Coniferophyta\n\n\n\nÁrboles o arbustos muy ramificados\nHojas simples, lineales, aciculares o subuladas\nTubo polínico (sifonogamia)\nComúnmente monoicas\nCono femenino (bracteas y escama ovulífera)\nCupressophyta, Pinophyta y Gnetophyta,\n\n\n\n\n\n\n\n\n\n\nSimpson (2019)"
+  },
+  {
+    "objectID": "presentaciones/diversidad.html#coniferophyta-ciclo-de-vida",
+    "href": "presentaciones/diversidad.html#coniferophyta-ciclo-de-vida",
+    "title": "Diversidad",
+    "section": "Coniferophyta: ciclo de vida",
+    "text": "Coniferophyta: ciclo de vida\n\n\nEvert & Eichhorn (2013)"
+  },
+  {
+    "objectID": "presentaciones/diversidad.html#angiospermae",
+    "href": "presentaciones/diversidad.html#angiospermae",
+    "title": "Diversidad",
+    "section": "Angiospermae",
+    "text": "Angiospermae\n\n\n\nFlor\nPerianto\nEstambres\nCarpelo y fruto\nÓvulo con dos integumentos\nEndospermo\nTraqueas y Tubo criboso\n\n\n\n\n\n\n\n\n\n\nAlvesgaspar (2008)"
+  },
+  {
     "objectID": "presentaciones/diversidad.html#anthocerophyta-1",
     "href": "presentaciones/diversidad.html#anthocerophyta-1",
     "title": "Diversidad",
@@ -648,27 +697,34 @@
     "href": "presentaciones/diversidad.html#monilophyta-1",
     "title": "Diversidad",
     "section": "Monilophyta",
-    "text": "Monilophyta\n\nEn Equisetum identifique y describa la orientación y forma de los ejes, la disposición de las megafilas, la posición y la forma de los estróbilos.\nCortes transversales con Safranina y Azul Alcián de tallos de Equisetum.\nMontaje húmedo de esporas de Equisetum."
+    "text": "Monilophyta\n\nIdentifique y describa la orientación de los ejes, forma y complejidad de las frondes, vernación, presencia de pelos y escamas, etc. Además identifique y describa presencia y formas de los soros e indusio.\nCortes transversales con Safranina y Azul Alcián de tallos de Monilophyta.\nMontaje húmedo de esporas de Monilophyta."
   },
   {
-    "objectID": "presentaciones/diversidad.html#monilophyta-2",
-    "href": "presentaciones/diversidad.html#monilophyta-2",
+    "objectID": "presentaciones/diversidad.html#gymnospermae-1",
+    "href": "presentaciones/diversidad.html#gymnospermae-1",
     "title": "Diversidad",
-    "section": "Monilophyta",
-    "text": "Monilophyta\n\nEn diferentes Monilophyta (excepto Equisetum) identifique y describa la orientación de los ejes, forma y complejidad de las frondes, vernación, presencia de pelos y escamas, etc. Además identifique y describa presencia y formas de los soros e indusio.\nCortes transversales con Safranina y Azul Alcián de tallos de Monilophyta (excepto Equisetum).\nMontaje húmedo de esporas de Monilophyta (excepto Equisetum)."
+    "section": "Gymnospermae",
+    "text": "Gymnospermae\n\nIdentifique y describa las características que le permitan diferencias entre Cycadophyta y Coniferophyta.\nCortes transversales con Safranina y Azul Alcián de tallos de Gymnospermae.\nMontaje húmedo de granos de polen de Gymnospermae."
+  },
+  {
+    "objectID": "presentaciones/diversidad.html#angiospermae-1",
+    "href": "presentaciones/diversidad.html#angiospermae-1",
+    "title": "Diversidad",
+    "section": "Angiospermae",
+    "text": "Angiospermae\n\nRaíz\nTallo\nHoja\nFlor\nFruto y semilla"
   },
   {
     "objectID": "presentaciones/diversidad.html#próximo-práctica",
     "href": "presentaciones/diversidad.html#próximo-práctica",
     "title": "Diversidad",
     "section": "Próximo práctica",
-    "text": "Próximo práctica"
+    "text": "Próximo práctica\n\nActividad calificativa"
   },
   {
     "objectID": "presentaciones/diversidad.html#referencias",
     "href": "presentaciones/diversidad.html#referencias",
     "title": "Diversidad",
     "section": "Referencias",
-    "text": "Referencias\n\n\nEvert, R. F., & Eichhorn, S. E. (2013). Raven biology of plants (Eighth edition). W.H. Freeman; Company Publishers.\n\n\nGitzendanner, M. A., Soltis, P. S., Wong, G. K.-S., Ruhfel, B. R., & Soltis, D. E. (2018). Plastid phylogenomic analysis of green plants: A billion years of evolutionary history. American Journal of Botany, 105(3), 291–301. https://doi.org/10.1002/ajb2.1048\n\n\nHaeckel, E. (1904). Kunstformen der natur. Verlag des Bibliographischen Instituts. https://www.biodiversitylibrary.org/item/104650\n\n\nMegías Pacheco, M., Molist García, P., & Pombal Diego, M. Á. (2017). Atlas de histología vegetal y animal. https://mmegias.webs.uvigo.es/\n\n\nPuttick, M. N., Morris, J. L., Williams, T. A., Cox, C. J., Edwards, D., Kenrick, P., Pressel, S., Wellman, C. H., Schneider, H., Pisani, D., & Donoghue, P. C. J. (2018). The Interrelationships of Land Plants and the Nature of the Ancestral Embryophyte. Current Biology, 28(5), 733–745.e2. https://doi.org/10.1016/j.cub.2018.01.063\n\n\nSimpson, M. G. (2019). Plant systematics (Third edition). Academic Press, an imprint of Elsevier.\n\n\nThomé, O. W. (1886). Flora von deutschland, österreich und der schweiz: Vols. Bd.1 [1886]. https://www.biodiversitylibrary.org/item/194265\n\n\n\n\n\nalexespinosaco"
+    "text": "Referencias\n\n\nBrockhaus’ konversations-lexikon. (1892). [Computer software]. F.A. Brockhaus,. https://doi.org/10.5962/bhl.title.169827\n\n\nEvert, R. F., & Eichhorn, S. E. (2013). Raven biology of plants (Eighth edition). W.H. Freeman; Company Publishers.\n\n\nGitzendanner, M. A., Soltis, P. S., Wong, G. K.-S., Ruhfel, B. R., & Soltis, D. E. (2018). Plastid phylogenomic analysis of green plants: A billion years of evolutionary history. American Journal of Botany, 105(3), 291–301. https://doi.org/10.1002/ajb2.1048\n\n\nHaeckel, E. (1904). Kunstformen der natur. Verlag des Bibliographischen Instituts. https://www.biodiversitylibrary.org/item/104650\n\n\nMegías Pacheco, M., Molist García, P., & Pombal Diego, M. Á. (2017). Atlas de histología vegetal y animal. https://mmegias.webs.uvigo.es/\n\n\nPuttick, M. N., Morris, J. L., Williams, T. A., Cox, C. J., Edwards, D., Kenrick, P., Pressel, S., Wellman, C. H., Schneider, H., Pisani, D., & Donoghue, P. C. J. (2018). The Interrelationships of Land Plants and the Nature of the Ancestral Embryophyte. Current Biology, 28(5), 733–745.e2. https://doi.org/10.1016/j.cub.2018.01.063\n\n\nSimpson, M. G. (2019). Plant systematics (Third edition). Academic Press, an imprint of Elsevier.\n\n\nThomé, O. W. (1886). Flora von deutschland, österreich und der schweiz: Vols. Bd.1 [1886]. https://www.biodiversitylibrary.org/item/194265\n\n\n\n\n\nalexespinosaco"
   }
 ]
