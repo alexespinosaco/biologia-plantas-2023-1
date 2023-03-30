@@ -12,6 +12,8 @@ format:
     preview-links: true
     logo: images/geobota_logo.png
     footer: "[alexespinosaco](http://alexespinosaco.github.io)"
+    controls: true
+    chalkboard: true
 ---
 
 ## Embryophyta
@@ -78,7 +80,7 @@ TadejM ([2007](https://commons.wikimedia.org/wiki/File:Plants.jpg))
     -   Lycopodiophyta
     -   Euphyllophyta
         -   Monilophyta
-        -   Embryophyta
+        -   Spermatophyta
             -   Gimnospermae
             -   Angiospermae
 :::
@@ -310,7 +312,7 @@ Kostka ([2023](https://commons.wikimedia.org/wiki/File:Tracheophyta.jpg))
 :::
 
 ::: {.column width="50%"}
-![](images/isoetaceae.jpg){fig-align="center"}
+![](images/isoetaceae.jpg){#isoetaceae fig-align="center"}
 :::
 :::
 
@@ -343,6 +345,23 @@ Kostka ([2023](https://commons.wikimedia.org/wiki/File:Tracheophyta.jpg))
 
 ::: footer
 @evert2013
+:::
+
+## Euphyllophyta
+
+::: columns
+::: {.column width="50%"}
+-   Hojas eufilas o megafilas
+-   Laguna foliar
+-   Venación
+-   Raíz monopodial
+-   Endodermis
+-   Periciclo
+:::
+
+::: {.column width="50%"}
+![](images/hoja_comparacio%CC%81n.png){#hoja-comparacion fig-align="center"}
+:::
 :::
 
 ## Monilophyta
@@ -469,6 +488,129 @@ Kostka ([2023](https://commons.wikimedia.org/wiki/File:Tracheophyta.jpg))
 @evert2013
 :::
 
+## Spermatophyta
+
+::: columns
+::: {.column width="50%"}
+-   Semilla
+-   Heterosporia
+-   Reducción de la megaspora
+-   Retención de la megaspora
+-   Endosporia
+-   Tegumento
+-   Polen
+:::
+
+::: {.column width="50%"}
+![](images/spermatophyta.png){#spermatophyta fig-align="center"}
+:::
+:::
+
+## Gymnospermae
+
+::: columns
+::: {.column width="50%"}
+
+-   Óvulos y semillas en la superficie de hojas modificadas (esporofilas)
+-   Estructuras reproductivas generalmente unisexuales y anemógamas
+-   Xilema con traqueidas
+-   Cycadophyta, Ginkgophyta y Coniferophyta
+
+:::
+
+::: {.column width="50%"}
+![](images/gymnospermae.jpg){#gymnospermae fig-align="center"}
+:::
+:::
+
+::: footer
+@brockhau1892
+:::
+
+## Cycadophyta
+
+::: columns
+::: {.column width="50%"}
+
+-   Tallo corto y erecto
+-   Hojas compuestas (pinnadas) espiraladas
+-   Dioicas (conos o estrobilos masculinos y femeninos)
+-   Cycadaceae y Zamiaceae
+
+:::
+
+::: {.column width="50%"}
+
+![](images/cycadophyta.jpg){#cycadophyta fig-align="center"}
+
+:::
+:::
+
+::: footer
+@simpson2019
+:::
+
+## Coniferophyta
+
+::: columns
+::: {.column width="50%"}
+
+-   Árboles o arbustos muy ramificados
+-   Hojas simples, lineales, aciculares o subuladas
+-   Tubo polínico (sifonogamia)
+-   Comúnmente monoicas
+-   Cono femenino (bracteas y escama ovulífera)
+-   Cupressophyta, Pinophyta y Gnetophyta, 
+
+:::
+
+::: {.column width="50%"}
+
+![](images/coniferophyta.jpg){#coniferophyta fig-align="center"}
+
+:::
+:::
+
+::: footer
+@simpson2019
+:::
+
+## Coniferophyta: ciclo de vida
+
+![](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/coniferophyta_ciclo.png?raw=true){#polypodiopsida-ciclo fig-align="center"}
+
+::: footer
+@evert2013
+:::
+
+## Angiospermae
+
+::: columns
+::: {.column width="50%"}
+
+-   Flor
+-   Perianto
+-   Estambres
+-   Carpelo y fruto
+-   Óvulo con dos integumentos
+-   Endospermo
+-   Traqueas y Tubo criboso
+
+
+:::
+
+::: {.column width="50%"}
+
+![](images/angiospermae.jpg){#angiosperma fig-align="center" width="80%"}
+
+:::
+:::
+
+::: footer
+Alvesgaspar ([2008](https://commons.wikimedia.org/wiki/File:Flower_poster_2.jpg))
+:::
+
+
 # Procedimiento
 
 ## Anthocerophyta
@@ -505,23 +647,33 @@ Kostka ([2023](https://commons.wikimedia.org/wiki/File:Tracheophyta.jpg))
 
 ## Monilophyta
 
--   En Equisetum identifique y describa la orientación y forma de los ejes, la disposición de las megafilas, la posición y la forma de los estróbilos.
+-   Identifique y describa la orientación de los ejes, forma y complejidad de las frondes, vernación, presencia de pelos y escamas, etc. Además identifique y describa presencia y formas de los soros e indusio.
 
--   Cortes transversales con Safranina y Azul Alcián de tallos de Equisetum.
+-   Cortes transversales con Safranina y Azul Alcián de tallos de Monilophyta.
 
--   Montaje húmedo de esporas de Equisetum.
+-   Montaje húmedo de esporas de Monilophyta.
 
-## Monilophyta
+## Gymnospermae
 
--   En diferentes Monilophyta (excepto Equisetum) identifique y describa la orientación de los ejes, forma y complejidad de las frondes, vernación, presencia de pelos y escamas, etc. Además identifique y describa presencia y formas de los soros e indusio.
+-   Identifique y describa las características que le permitan diferencias entre Cycadophyta y Coniferophyta.
 
--   Cortes transversales con Safranina y Azul Alcián de tallos de Monilophyta (excepto Equisetum).
+-   Cortes transversales con Safranina y Azul Alcián de tallos de Gymnospermae.
 
--   Montaje húmedo de esporas de Monilophyta (excepto Equisetum).
+-   Montaje húmedo de granos de polen de Gymnospermae.
+
+## Angiospermae
+
+-   Raíz
+-   Tallo
+-   Hoja
+-   Flor
+-   Fruto y semilla
 
 # ¿Preguntas?
 
 ## Próximo práctica
+
+-   Actividad calificativa
 
 ## Referencias
 

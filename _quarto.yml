@@ -9,7 +9,7 @@ website:
   repo-url: https://github.com/alexespinosaco/biologia-plantas
   #page-navigation: true
   page-footer: 
-    center: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es) 2023, [Álex Espinosa-Correa](http://alexespinosaco.github.io/)"
+    center: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es), [Álex Espinosa-Correa](http://alexespinosaco.github.io/), 2023"
 
   open-graph: true
   twitter-card: 
