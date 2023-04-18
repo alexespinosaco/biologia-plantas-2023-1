@@ -1,0 +1,28 @@
+---
+title: "Raíz"
+subtitle: "Biología de las Plantas: laboratorio"
+author: "Álex Espinosa Correa"
+date: 2023-04-20
+
+bibliography: references-raiz.bib
+
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: true
+    logo: images/geobota_logo.png
+    footer: "[alexespinosaco](http://alexespinosaco.github.io)"
+    controls: true
+    chalkboard: true
+---
+
+## Raíz
+
+> Eje generalmente descendente de una planta, normalmente bajo tierra, que sirve para **anclar** la planta y para **absorber** y **conducir** agua y minerales hacia ella. @evert2013
+
+-   Primera estructura en emerger
+-   Almacenamiento
+-   Producción de hormonas y metabolitos secundarios
+-   Regeneración clonal
+
+## 
