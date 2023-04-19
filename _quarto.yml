@@ -39,6 +39,7 @@ website:
           - href: presentaciones/histologia-I.qmd
           - href: presentaciones/histologia-II.qmd
           - href: presentaciones/diversidad.qmd
+          - href: presentaciones/raiz.qmd
 
 link-external-icon: false
 link-external-newwindow: true
