@@ -13,8 +13,11 @@ format:
     logo: images/geobota_logo.png
     footer: "[alexespinosaco](http://alexespinosaco.github.io)"
     controls: true
+    touch: false
     chalkboard: true
 ---
+
+# Introducción
 
 ## Embryophyta
 
@@ -360,7 +363,7 @@ Kostka ([2023](https://commons.wikimedia.org/wiki/File:Tracheophyta.jpg))
 :::
 
 ::: {.column width="50%"}
-![](images/hoja_comparacio%CC%81n.png){#hoja-comparacion fig-align="center"}
+![](images/hoja_comparacion.png){#hoja-comparacion fig-align="center"}
 :::
 :::
 
