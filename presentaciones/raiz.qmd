@@ -17,8 +17,12 @@ format:
     chalkboard: true
 ---
 
-## Definición y función
+# Introducción
 
+## Definición y función 
+
+::: columns
+::: {.column width="60%"}
 > Eje generalmente descendente de una planta, normalmente bajo tierra, que sirve para **anclar** la planta y para **absorber** y **conducir** agua y minerales hacia ella. @evert2013
 
 -   Primera estructura en emerger
@@ -26,6 +30,13 @@ format:
 -   Producción de hormonas y metabolitos secundarios
 -   Regeneración clonal
 
+::: 
+::: {.column width="40%"}
+
+![Ta Prohm, Angkor, Cambodia. Tomado de Sim ([2009](https://commons.wikimedia.org/wiki/File:Tree_roots_and_temple,_Ta_Prohm,_Angkor,_Cambodia.jpg))](images/raíz_templo.jpg){#fig-raiz-templo fig-align="center"}
+
+:::
+:::
 ## Sistema radicular
 
 ::: columns
@@ -136,9 +147,7 @@ Fibroso u homorrizo
 
 # ¿Preguntas?
 
-## Próximo práctica
-
--   
+# Próximo práctica
 
 ## Referencias
 
