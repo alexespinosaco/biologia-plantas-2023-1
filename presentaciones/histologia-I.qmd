@@ -12,6 +12,9 @@ format:
     preview-links: true
     logo: images/geobota_logo.png
     footer: "[alexespinosaco](http://alexespinosaco.github.io)"
+    controls: true
+    touch: false
+    chalkboard: true
 ---
 
 ## Tejidos
