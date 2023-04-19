@@ -19,24 +19,23 @@ format:
 
 # Introducción
 
-## Definición y función 
+## Definición y función
 
 ::: columns
 ::: {.column width="60%"}
-> Eje generalmente descendente de una planta, normalmente bajo tierra, que sirve para **anclar** la planta y para **absorber** y **conducir** agua y minerales hacia ella. @evert2013
+> Eje generalmente descendente de una planta, normalmente bajo tierra, que sirve para **anclar** la planta y para **absorber** y **conducir** agua y minerales hacia ella. @evert2013.
 
 -   Primera estructura en emerger
 -   Almacenamiento
 -   Producción de hormonas y metabolitos secundarios
 -   Regeneración clonal
+:::
 
-::: 
 ::: {.column width="40%"}
-
-![Ta Prohm, Angkor, Cambodia. Tomado de Sim ([2009](https://commons.wikimedia.org/wiki/File:Tree_roots_and_temple,_Ta_Prohm,_Angkor,_Cambodia.jpg))](images/raíz_templo.jpg){#fig-raiz-templo fig-align="center"}
-
+![Ta Prohm, Angkor, Cambodia. Tomado de Sim ([2009](https://upload.wikimedia.org/wikipedia/commons/1/1f/Tree_roots_and_temple%2C_Ta_Prohm%2C_Angkor%2C_Cambodia.jpg)).](images/raiz_templo.jpg){#fig-raiz-templo fig-align="center"}
 :::
 :::
+
 ## Sistema radicular
 
 ::: columns
@@ -79,15 +78,11 @@ Fibroso u homorrizo
 
 ::: columns
 ::: {.column width="70%"}
-
 ![Morfología y anatomía de la raíz. Tomado de @nabors2006.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/raiz_esquema.png?raw=true){#fig-raiz-zonas fig-align="center"}
-
 :::
 
 ::: {.column width="30%"}
-
 ![Desarrollo de la raíz. Tomado de @evert2013.](images/raiz_crecimiento.png){#fig-raiz-crecimiento fig-align="center" width="100%"}
-
 :::
 :::
 
@@ -131,11 +126,11 @@ Fibroso u homorrizo
 
 ## Raíz de Eudicotyledoneae
 
--   Cortes transversales con Safranina y Azul Alcián de raíces de *Phaseolus vulgaris* o cualquier otra Eudicotyledoneae. Observe e identifique: epidermis, parénquima cortical, endodermis (distinga las bandas de Caspary y las células de paso), periciclo, cambium vascular, floema primario, xilema primario. Así mismo identifique si hay raices laterales. 
+-   Cortes transversales con Safranina y Azul Alcián de raíces de *Phaseolus vulgaris* o cualquier otra Eudicotyledoneae. Observe e identifique: epidermis, parénquima cortical, endodermis (distinga las bandas de Caspary y las células de paso), periciclo, cambium vascular, floema primario, xilema primario. Así mismo identifique si hay raices laterales.
 
 ## Raíz de Monocotyledoneae
 
--   Cortes transversales con Safranina y Azul Alcián de raíces de *Zea mays*, *Monstera deliciosa* y  Orchidaceae. Observe e identifique: epidermis, exodermis (si existe), córtex, velamen (si existe), endodermis, floema, xilema, médula.
+-   Cortes transversales con Safranina y Azul Alcián de raíces de *Zea mays*, *Monstera deliciosa* y Orchidaceae. Observe e identifique: epidermis, exodermis (si existe), córtex, velamen (si existe), endodermis, floema, xilema, médula.
 
 ## Cuerpo secundario de la raíz
 
@@ -143,7 +138,7 @@ Fibroso u homorrizo
 
 ## Raíz de *Daucus carota*
 
--   Cortes transversales y longitudinales de una zanahoria. Observe al estereomicroscopio e identifique los tejidos que la conforman. 
+-   Cortes transversales y longitudinales de una zanahoria. Observe al estereomicroscopio e identifique los tejidos que la conforman.
 
 # ¿Preguntas?
 
