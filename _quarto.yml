@@ -44,6 +44,8 @@ link-external-icon: false
 link-external-newwindow: true
 date-format: iso
 csl: apa.csl
+crossref: 
+  fig-title: Fig
 
 format: 
   html: 

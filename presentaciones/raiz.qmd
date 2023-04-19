@@ -13,10 +13,11 @@ format:
     logo: images/geobota_logo.png
     footer: "[alexespinosaco](http://alexespinosaco.github.io)"
     controls: true
+    touch: false
     chalkboard: true
 ---
 
-## Raíz
+## Definición y función
 
 > Eje generalmente descendente de una planta, normalmente bajo tierra, que sirve para **anclar** la planta y para **absorber** y **conducir** agua y minerales hacia ella. @evert2013
 
@@ -25,4 +26,121 @@ format:
 -   Producción de hormonas y metabolitos secundarios
 -   Regeneración clonal
 
-## 
+## Sistema radicular
+
+::: columns
+::: {.column width="50%"}
+### Axonomorfo
+
+Pivotante o alorrizo
+
+-   Raíz primaria de vida larga
+-   Originada en el embrión
+-   Raíz pivotante
+-   Raíces secundarias
+-   Forma y tamaño variable
+-   Con crecimiento secundario
+:::
+
+::: {.column width="50%"}
+### Fasciculado
+
+Fibroso u homorrizo
+
+-   Raíz primaria de vida corta
+-   Originada en el tallo
+-   Raíces adventicias
+-   Pueden ser ramificadas
+-   Forma y tamaño homogéneo
+-   Sin crecimiento secundario
+:::
+:::
+
+## Axonomorfo vs Fasciculado
+
+![Ejemplos de sistema radicular. Tomado de GDJ ([2021](https://pixabay.com/es/vectors/plantas-ra%C3%ADces-l%C3%ADnea-arte-botánica-6088466/))](images/raiz_sistemas.png){#fig-raiz-sistemas fig-align="center"}
+
+## Tipos de raíces
+
+![Tipos de raíz. A. Axonomorfa. B. Fibrosa. C. Aéreas. D. Haustoriales. E. De reserva. F. Tabulares. G, H. Neumatoforos. Tomado de @simpson2019.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/raiz_tipos.png?raw=true){#fig-raiz-tipos fig-align="center"}
+
+## Zonas de la raíz {.smaller}
+
+::: columns
+::: {.column width="70%"}
+
+![Morfología y anatomía de la raíz. Tomado de @nabors2006.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/raiz_esquema.png?raw=true){#fig-raiz-zonas fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+![Desarrollo de la raíz. Tomado de @evert2013.](images/raiz_crecimiento.png){#fig-raiz-crecimiento fig-align="center" width="100%"}
+
+:::
+:::
+
+## Crecimiento primario
+
+![Comparación entre raíz en crecimiento primario de Eudicotyledoneae y Monocotyledoneae. Tomado de @nabors2006.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/raiz_comparacion.png?raw=true){#fig-raiz-comparacion fig-align="center"}
+
+## Xilema y Floema
+
+![Tipo de raíz según el número de cordonoes de xilema y flomea. Tomado de @megíaspacheco2017.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/raiz-arcas.png?raw=true){#fig-raiz-arca fig-aling="center"}
+
+## Endodermis
+
+![Endodermis y banda de Caspary. Tomado de @nabors2006.](images/endodermis.png){#fig-endodermis fig-aling="center"}
+
+## Raices secundarias o laterales
+
+![Surgimiento de raíz lateral. Tomado de @nabors2006.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/raiz_lateral.jpg?raw=true){#fig-raiz-lateral fig-aling="center"}
+
+## Crecimientos secundario
+
+![Crecimiento secundario de la raíz. Tomado de @megíaspacheco2017.](images/raiz_secundaria_esquema.png){#fig-raiz-secundaria fig-aling="center"}
+
+## Crecimientos primario y secundario
+
+![Comparación entre raíz con crecimiento primario y secundario. Tomado de @evert2013.](images/raiz_primaria_secundaria.png){#fig-raiz-primaria-secundaria fig-aling="center"}
+
+# Procedimiento
+
+## Sistema radicular
+
+-   En diferentes plantas, ubique la raíz primaria y las raíces secundarias e identifique que sistema radicular posee (axonomorfo o fasciculado).
+
+## Raíces modificadas
+
+-   En diferentes plantas identifique las modificaciones que pueda presentar la raíz, así como el tipo al que pertenezca (haustorios, raíces acuáticas, tuberosa, entre otras)
+
+## Estructura externa de la raíz
+
+-   En una plantula de *Raphanus sativus* identifique las siguientes regiones: cofia, meristemo apical, zona de elongación y diferenciación, zona pilífera, zona suprapilífera y cuello.
+
+## Raíz de Eudicotyledoneae
+
+-   Cortes transversales con Safranina y Azul Alcián de raíces de *Phaseolus vulgaris* o cualquier otra Eudicotyledoneae. Observe e identifique: epidermis, parénquima cortical, endodermis (distinga las bandas de Caspary y las células de paso), periciclo, cambium vascular, floema primario, xilema primario. Así mismo identifique si hay raices laterales. 
+
+## Raíz de Monocotyledoneae
+
+-   Cortes transversales con Safranina y Azul Alcián de raíces de *Zea mays*, *Monstera deliciosa* y  Orchidaceae. Observe e identifique: epidermis, exodermis (si existe), córtex, velamen (si existe), endodermis, floema, xilema, médula.
+
+## Cuerpo secundario de la raíz
+
+-   Cortes transversales con Safranina y Azul Alcián de raíces con crecimiento secundario. Observe e identifique: súber, cambium suberoso, felodermis, floema y xilemas secundarios, además de los tejidos primarias que aún puedan estar presentes.
+
+## Raíz de *Daucus carota*
+
+-   Cortes transversales y longitudinales de una zanahoria. Observe al estereomicroscopio e identifique los tejidos que la conforman. 
+
+# ¿Preguntas?
+
+## Próximo práctica
+
+-   
+
+## Referencias
+
+::: {#refs}
+:::
