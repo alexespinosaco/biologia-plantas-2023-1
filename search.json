@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Biología de las Plantas: Laboratorio",
     "section": "",
-    "text": "Esta página contiene las presentaciones del laboratorio de Biología de las Plantas de la Universidad de Antioquia, 2023-1.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiversidad\n\n\n\n\n\n\n2023-03-23\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistología II\n\n\n\n\n\n\n2023-03-09\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistología I\n\n\n\n\n\n\n2023-03-02\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Esta página contiene las presentaciones del laboratorio de Biología de las Plantas de la Universidad de Antioquia, 2023-1.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaíz\n\n\n\n\n\n\n2023-04-20\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiversidad\n\n\n\n\n\n\n2023-03-23\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistología II\n\n\n\n\n\n\n2023-03-09\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistología I\n\n\n\n\n\n\n2023-03-02\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentaciones/histologia-I.html#tejidos",
@@ -418,6 +418,139 @@
     "title": "Histología II",
     "section": "Referencias",
     "text": "Referencias\n\n\nArbo, M. M., & Gonzalez, A. M. (2019). Botánica Morfológica. http://www.biologia.edu.ar/botanica/index.html\n\n\nEvert, R. F. (2006). Esau’s Plant Anatomy: Meristems, Cells, and Tissues of the Plant Body: Their Structure, Function, and Development (Third Edition). John Wiley & Sons, Inc. https://doi.org/10.1002/0470047380\n\n\nEvert, R. F., & Eichhorn, S. E. (2013). Raven biology of plants (Eighth edition). W.H. Freeman; Company Publishers.\n\n\nMegías Pacheco, M., Molist García, P., & Pombal Diego, M. Á. (2017). Atlas de histología vegetal y animal. https://mmegias.webs.uvigo.es/\n\n\nNabors, M. W. (2006). Introducción a la Botánica. Pearson Educación, S.A.\n\n\n\n\n\nalexespinosaco"
+  },
+  {
+    "objectID": "presentaciones/raiz.html#definición-y-función",
+    "href": "presentaciones/raiz.html#definición-y-función",
+    "title": "Raíz",
+    "section": "Definición y función",
+    "text": "Definición y función\n\n\n\nEje generalmente descendente de una planta, normalmente bajo tierra, que sirve para anclar la planta y para absorber y conducir agua y minerales hacia ella. Evert & Eichhorn (2013)\n\n\nPrimera estructura en emerger\nAlmacenamiento\nProducción de hormonas y metabolitos secundarios\nRegeneración clonal\n\n\n\n\n\nFig 1: Ta Prohm, Angkor, Cambodia. Tomado de Sim (2009)"
+  },
+  {
+    "objectID": "presentaciones/raiz.html#sistema-radicular",
+    "href": "presentaciones/raiz.html#sistema-radicular",
+    "title": "Raíz",
+    "section": "Sistema radicular",
+    "text": "Sistema radicular\n\n\nAxonomorfo\nPivotante o alorrizo\n\nRaíz primaria de vida larga\nOriginada en el embrión\nRaíz pivotante\nRaíces secundarias\nForma y tamaño variable\nCon crecimiento secundario\n\n\nFasciculado\nFibroso u homorrizo\n\nRaíz primaria de vida corta\nOriginada en el tallo\nRaíces adventicias\nPueden ser ramificadas\nForma y tamaño homogéneo\nSin crecimiento secundario"
+  },
+  {
+    "objectID": "presentaciones/raiz.html#axonomorfo-vs-fasciculado",
+    "href": "presentaciones/raiz.html#axonomorfo-vs-fasciculado",
+    "title": "Raíz",
+    "section": "Axonomorfo vs Fasciculado",
+    "text": "Axonomorfo vs Fasciculado\n\nFig 2: Ejemplos de sistema radicular. Tomado de GDJ (2021)"
+  },
+  {
+    "objectID": "presentaciones/raiz.html#tipos-de-raíces",
+    "href": "presentaciones/raiz.html#tipos-de-raíces",
+    "title": "Raíz",
+    "section": "Tipos de raíces",
+    "text": "Tipos de raíces\n\nFig 3: Tipos de raíz. A. Axonomorfa. B. Fibrosa. C. Aéreas. D. Haustoriales. E. De reserva. F. Tabulares. G, H. Neumatoforos. Tomado de Simpson (2019)."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#zonas-de-la-raíz",
+    "href": "presentaciones/raiz.html#zonas-de-la-raíz",
+    "title": "Raíz",
+    "section": "Zonas de la raíz",
+    "text": "Zonas de la raíz\n\n\n\n\n\nFig 4: Morfología y anatomía de la raíz. Tomado de Nabors (2006).\n\n\n\n\n\n\nFig 5: Desarrollo de la raíz. Tomado de Evert & Eichhorn (2013)."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#crecimiento-primario",
+    "href": "presentaciones/raiz.html#crecimiento-primario",
+    "title": "Raíz",
+    "section": "Crecimiento primario",
+    "text": "Crecimiento primario\n\nFig 6: Comparación entre raíz en crecimiento primario de Eudicotyledoneae y Monocotyledoneae. Tomado de Nabors (2006)."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#xilema-y-floema",
+    "href": "presentaciones/raiz.html#xilema-y-floema",
+    "title": "Raíz",
+    "section": "Xilema y Floema",
+    "text": "Xilema y Floema\n\nFig 7: Tipo de raíz según el número de cordonoes de xilema y flomea. Tomado de Megías Pacheco et al. (2017)."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#endodermis",
+    "href": "presentaciones/raiz.html#endodermis",
+    "title": "Raíz",
+    "section": "Endodermis",
+    "text": "Endodermis\n\nFig 8: Endodermis y banda de Caspary. Tomado de Nabors (2006)."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#raices-secundarias-o-laterales",
+    "href": "presentaciones/raiz.html#raices-secundarias-o-laterales",
+    "title": "Raíz",
+    "section": "Raices secundarias o laterales",
+    "text": "Raices secundarias o laterales\n\nFig 9: Surgimiento de raíz lateral. Tomado de Nabors (2006)."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#crecimientos-secundario",
+    "href": "presentaciones/raiz.html#crecimientos-secundario",
+    "title": "Raíz",
+    "section": "Crecimientos secundario",
+    "text": "Crecimientos secundario\n\nFig 10: Crecimiento secundario de la raíz. Tomado de Megías Pacheco et al. (2017)."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#crecimientos-primario-y-secundario",
+    "href": "presentaciones/raiz.html#crecimientos-primario-y-secundario",
+    "title": "Raíz",
+    "section": "Crecimientos primario y secundario",
+    "text": "Crecimientos primario y secundario\n\nFig 11: Comparación entre raíz con crecimiento primario y secundario. Tomado de Evert & Eichhorn (2013)."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#sistema-radicular-1",
+    "href": "presentaciones/raiz.html#sistema-radicular-1",
+    "title": "Raíz",
+    "section": "Sistema radicular",
+    "text": "Sistema radicular\n\nEn diferentes plantas, ubique la raíz primaria y las raíces secundarias e identifique que sistema radicular posee (axonomorfo o fasciculado)."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#raíces-modificadas",
+    "href": "presentaciones/raiz.html#raíces-modificadas",
+    "title": "Raíz",
+    "section": "Raíces modificadas",
+    "text": "Raíces modificadas\n\nEn diferentes plantas identifique las modificaciones que pueda presentar la raíz, así como el tipo al que pertenezca (haustorios, raíces acuáticas, tuberosa, entre otras)"
+  },
+  {
+    "objectID": "presentaciones/raiz.html#estructura-externa-de-la-raíz",
+    "href": "presentaciones/raiz.html#estructura-externa-de-la-raíz",
+    "title": "Raíz",
+    "section": "Estructura externa de la raíz",
+    "text": "Estructura externa de la raíz\n\nEn una plantula de Raphanus sativus identifique las siguientes regiones: cofia, meristemo apical, zona de elongación y diferenciación, zona pilífera, zona suprapilífera y cuello."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#raíz-de-eudicotyledoneae",
+    "href": "presentaciones/raiz.html#raíz-de-eudicotyledoneae",
+    "title": "Raíz",
+    "section": "Raíz de Eudicotyledoneae",
+    "text": "Raíz de Eudicotyledoneae\n\nCortes transversales con Safranina y Azul Alcián de raíces de Phaseolus vulgaris o cualquier otra Eudicotyledoneae. Observe e identifique: epidermis, parénquima cortical, endodermis (distinga las bandas de Caspary y las células de paso), periciclo, cambium vascular, floema primario, xilema primario. Así mismo identifique si hay raices laterales."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#raíz-de-monocotyledoneae",
+    "href": "presentaciones/raiz.html#raíz-de-monocotyledoneae",
+    "title": "Raíz",
+    "section": "Raíz de Monocotyledoneae",
+    "text": "Raíz de Monocotyledoneae\n\nCortes transversales con Safranina y Azul Alcián de raíces de Zea mays, Monstera deliciosa y Orchidaceae. Observe e identifique: epidermis, exodermis (si existe), córtex, velamen (si existe), endodermis, floema, xilema, médula."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#cuerpo-secundario-de-la-raíz",
+    "href": "presentaciones/raiz.html#cuerpo-secundario-de-la-raíz",
+    "title": "Raíz",
+    "section": "Cuerpo secundario de la raíz",
+    "text": "Cuerpo secundario de la raíz\n\nCortes transversales con Safranina y Azul Alcián de raíces con crecimiento secundario. Observe e identifique: súber, cambium suberoso, felodermis, floema y xilemas secundarios, además de los tejidos primarias que aún puedan estar presentes."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#raíz-de-daucus-carota",
+    "href": "presentaciones/raiz.html#raíz-de-daucus-carota",
+    "title": "Raíz",
+    "section": "Raíz de Daucus carota",
+    "text": "Raíz de Daucus carota\n\nCortes transversales y longitudinales de una zanahoria. Observe al estereomicroscopio e identifique los tejidos que la conforman."
+  },
+  {
+    "objectID": "presentaciones/raiz.html#referencias",
+    "href": "presentaciones/raiz.html#referencias",
+    "title": "Raíz",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nEvert, R. F., & Eichhorn, S. E. (2013). Raven biology of plants (Eighth edition). W.H. Freeman; Company Publishers.\n\n\nMegías Pacheco, M., Molist García, P., & Pombal Diego, M. Á. (2017). Atlas de histología vegetal y animal. https://mmegias.webs.uvigo.es/\n\n\nNabors, M. W. (2006). Introducción a la Botánica. Pearson Educación, S.A.\n\n\nSimpson, M. G. (2019). Plant systematics (Third edition). Academic Press, an imprint of Elsevier.\n\n\n\n\n\nalexespinosaco"
   },
   {
     "objectID": "presentaciones/diversidad.html#embryophyta",
