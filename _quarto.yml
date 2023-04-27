@@ -40,6 +40,7 @@ website:
           - href: presentaciones/histologia-II.qmd
           - href: presentaciones/diversidad.qmd
           - href: presentaciones/raiz.qmd
+          - href: presentaciones/tallo.qmd
 
 link-external-icon: false
 link-external-newwindow: true
