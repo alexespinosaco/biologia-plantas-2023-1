@@ -5,13 +5,14 @@
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.2.313">
+  <meta name="generator" content="quarto-1.3.340">
 
   <meta name="author" content="Álex Espinosa Correa">
-  <meta name="dcterms.date" content="2022-03-23">
-  <title>Biología de las Plantas: laboratorio - Diversidad I</title>
+  <meta name="dcterms.date" content="2023-04-27">
+  <title>BdlP-2023 - Tallo</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -26,14 +27,15 @@
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
       width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
     }
-    .hanging div.csl-entry {
+    .hanging-indent div.csl-entry {
       margin-left:2em;
       text-indent:-2em;
     }
@@ -47,12 +49,22 @@
     }
     div.csl-indent {
       margin-left: 2em;
-    }
-  </style>
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JYJJ0L4H6K"></script>
+
+  <script type="text/javascript">
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JYJJ0L4H6K', { 'anonymize_ip': true});
+  </script>
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -92,44 +104,44 @@
     font-weight: 400;
   }
 
-  .callout.callout-captioned.callout-style-simple .callout-body {
+  .callout.callout-titled.callout-style-simple .callout-body {
     margin-top: 0.2em;
   }
 
-  .callout:not(.callout-captioned) .callout-body {
+  .callout:not(.callout-titled) .callout-body {
       display: flex;
   }
 
-  .callout:not(.no-icon).callout-captioned.callout-style-simple .callout-content {
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
     padding-left: 1.6em;
   }
 
-  .callout.callout-captioned .callout-header {
+  .callout.callout-titled .callout-header {
     padding-top: 0.2em;
     margin-bottom: -0.2em;
   }
 
-  .callout.callout-captioned .callout-caption  p {
+  .callout.callout-titled .callout-title  p {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
     
-  .callout.callout-captioned.callout-style-simple .callout-content  p {
+  .callout.callout-titled.callout-style-simple .callout-content  p {
     margin-top: 0;
   }
 
-  .callout.callout-captioned.callout-style-default .callout-content  p {
+  .callout.callout-titled.callout-style-default .callout-content  p {
     margin-top: 0.7em;
   }
 
-  .callout.callout-style-simple div.callout-caption {
+  .callout.callout-style-simple div.callout-title {
     border-bottom: none;
     font-size: .9rem;
     font-weight: 600;
     opacity: 75%;
   }
 
-  .callout.callout-style-default  div.callout-caption {
+  .callout.callout-style-default  div.callout-title {
     border-bottom: none;
     font-weight: 600;
     opacity: 85%;
@@ -161,7 +173,7 @@
     background-size: 0.9rem 0.9rem;
   }
 
-  .callout-caption {
+  .callout-title {
     display: flex
   }
     
@@ -174,16 +186,16 @@
     display: none !important;
   }
 
-  .callout.callout-captioned .callout-body > .callout-content > :last-child {
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
     margin-bottom: 0.5rem;
   }
 
-  .callout.callout-captioned .callout-icon::before {
+  .callout.callout-titled .callout-icon::before {
     margin-top: .5rem;
     padding-right: .5rem;
   }
 
-  .callout:not(.callout-captioned) .callout-icon::before {
+  .callout:not(.callout-titled) .callout-icon::before {
     margin-top: 1rem;
     padding-right: .5rem;
   }
@@ -198,7 +210,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
   }
 
-  div.callout-note.callout-style-default .callout-caption {
+  div.callout-note.callout-style-default .callout-title {
     background-color: #dae6fb
   }
 
@@ -210,7 +222,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
   }
 
-  div.callout-important.callout-style-default .callout-caption {
+  div.callout-important.callout-style-default .callout-title {
     background-color: #f7dddc
   }
 
@@ -222,7 +234,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
   }
 
-  div.callout-warning.callout-style-default .callout-caption {
+  div.callout-warning.callout-style-default .callout-title {
     background-color: #fcefdc
   }
 
@@ -234,7 +246,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
   }
 
-  div.callout-tip.callout-style-default .callout-caption {
+  div.callout-tip.callout-style-default .callout-title {
     background-color: #ccf1e3
   }
 
@@ -246,7 +258,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
   }
 
-  div.callout-caution.callout-style-default .callout-caption {
+  div.callout-caution.callout-style-default .callout-title {
     background-color: #ffe5d0
   }
 
@@ -338,13 +350,22 @@
       margin-right: 0; 
     }
   </style>
+<meta property="og:title" content="BdlP-2023 - Tallo">
+<meta property="og:description" content="Biología de las Plantas: laboratorio">
+<meta property="og:image" content="https://alexespinosaco.github.io/biologia-plantas/presentaciones/images/ceroxylon_quindiuense.jpg">
+<meta property="og:site-name" content="BdlP-2023">
+<meta name="twitter:title" content="BdlP-2023 - Tallo">
+<meta name="twitter:description" content="Biología de las Plantas: laboratorio">
+<meta name="twitter:image" content="https://alexespinosaco.github.io/biologia-plantas/presentaciones/images/ceroxylon_quindiuense.jpg">
+<meta name="twitter:creator" content="@alexespinosaco">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Diversidad I</h1>
+  <h1 class="title">Tallo</h1>
   <p class="subtitle">Biología de las Plantas: laboratorio</p>
 
 <div class="quarto-title-authors">
@@ -355,611 +376,340 @@
 </div>
 </div>
 
-  <p class="date">2022-03-23</p>
+  <p class="date">2023-04-27</p>
 </section>
-<section id="embryophyta" class="slide level2">
-<h2>Embryophyta</h2>
+<section>
+<section id="introducción" class="title-slide slide level1 center">
+<h1>Introducción</h1>
+
+</section>
+<section id="section" class="slide level2 smaller">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<blockquote>
+<p>Aparte del uso de diversos tejidos vegetales como alimento, ningún tejido vegetal ha desempeñado un papel más indispensable en la supervivencia humana a lo largo de la historia que la madera, o xilema secundario. Entre otras cosas, la madera se ha utilizado para construir refugios, encender fuego para calentarse y cocinar, fabricar armas, muebles, herramientas y juguetes, fabricar pasta de papel y como medio de transporte en forma de balsas, barcos y ruedas. <span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span>.</p>
+</blockquote>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/ceroxylon_quindiuense.jpg"></p>
+<figcaption>La Palma de Cera, <em>Ceroxylon quindiuense</em>, la Monocotyledoneae más alta del mundo. Tomado de Bayer (<a href="https://upload.wikimedia.org/wikipedia/commons/e/e3/Palma_de_cera_del_Quind%C3%ADo_%28Ceroxylon_quindiuense%29_%2814343821178%29.jpg">2014</a>).</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="vástago" class="slide level2 smaller">
+<h2>Vástago</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<blockquote>
+<p>Cualquier tallo individual y sus hojas, así como cualquier estructura reproductora que surja del tallo, como las flores. <span class="citation" data-cites="nabors2006">Nabors (<a href="#/referencias" role="doc-biblioref" onclick="">2006</a>)</span>.</p>
+</blockquote>
+</div><div class="column" style="width:70%;">
+<div id="fig-estructuras" class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/morfologia_basica.png?raw=true" style="width:60.0%"></p>
+<figcaption>Fig&nbsp;1: Principales estructuras. Tomado de <span class="citation" data-cites="bonifacino2021">Bonifacino et al. (<a href="#/referencias" role="doc-biblioref" onclick="">2021</a>)</span>.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="tallo" class="slide level2 smaller">
+<h2>Tallo</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<blockquote>
+<p>Órgano generalmente cilíndrico que produce hojas, suele funcionar en soporte y elevación de hojas y estructuras reproductivas, además en la conducción de agua, minerales y azúcares; en las plantas vasculares se deriva inicialmente del epicótilo del embrión y crece generalmente hacia arriba. <span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span>.</p>
+</blockquote>
+</div><div class="column" style="width:60%;">
+<div id="fig-vastago" class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/vastago.png?raw=true" style="width:40.0%"></p>
+<figcaption>Fig&nbsp;2: Partes del tallo. Tomado de <span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span>.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="tallos-modificados" class="slide level2">
+<h2>Tallos modificados</h2>
+
+<img data-src="https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/tallo_tipos.png?raw=true" class="r-stretch quarto-figure-center"><p class="caption">Fig&nbsp;3: Tipo de tallos. Tomado de <span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span>.</p></section>
+<section id="crecimiento-primario" class="slide level2">
+<h2>Crecimiento primario</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li>Alternancia de generaciones
+<li>Epidermis</li>
+<li>Córtex
 <ul>
-<li>Gametófito</li>
-<li>Esporófito</li>
+<li>Parénquima, esclérenquima y colénquima</li>
 </ul></li>
-<li>Embrión</li>
-<li>Gametangios
+<li>Cilindro vascular
 <ul>
-<li>Anteridios</li>
-<li>Arquegonios</li>
+<li>Xilema y floema primarios</li>
 </ul></li>
-<li>Cuticula</li>
+<li>Médula
+<ul>
 <li>Parénquima</li>
+</ul></li>
 </ul>
 </div><div class="column" style="width:50%;">
-<div id="embryophyta" class="quarto-figure quarto-figure-center">
+<div id="fig-haces-vasculares" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/embryophyta.jpg" style="width:80.0%"></p>
+<p><img data-src="https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/vascular_organizacion.png?raw=true" style="width:60.0%"></p>
+<figcaption>Fig&nbsp;4: Haces vascualres. Tomado de <span class="citation" data-cites="megíaspacheco2017">Megías Pacheco et al. (<a href="#/referencias" role="doc-biblioref" onclick="">2017</a>)</span>.</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="footer">
-<p>TadejM (<a href="https://commons.wikimedia.org/wiki/File:Plants.jpg">2007</a>)</p>
+</section>
+<section id="crecimiento-primario-desarrollo" class="slide level2">
+<h2>Crecimiento primario: desarrollo</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div id="fig-tallo-teorias" class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tallo_meristema_apical_teorias.png" style="width:50.0%"></p>
+<figcaption>Fig&nbsp;5: Teorías del crecimiento primario del tallo. Tomado de <span class="citation" data-cites="nabors2004">Nabors (<a href="#/referencias" role="doc-biblioref" onclick="">2004</a>)</span>.</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div id="fig-tallo-meristema" class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tallo_meristema_apical.png" style="width:67.0%"></p>
+<figcaption>Fig&nbsp;6: Meristema apical del vastago. Tomado de <span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span>.</figcaption>
+</figure>
+</div>
+</div>
 </div>
 </section>
-<section id="alternancia-de-generaciones" class="slide level2">
-<h2>Alternancia de generaciones</h2>
+<section id="crecimiento-primario-comparación" class="slide level2">
+<h2>Crecimiento primario: comparación</h2>
 
-<img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/embryophyta_ciclo.jpg?raw=true" class="r-stretch quarto-figure-center"><div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
-</section>
-<section id="embryophyta-diversidad-y-relaciones" class="slide level2">
-<h2>Embryophyta: diversidad y relaciones</h2>
-
-<img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/viridiplantae_arbol.jpg?raw=true" class="r-stretch quarto-figure-center"><div class="footer">
-<p><span class="citation" data-cites="gitzendanner2018">Gitzendanner et al. (<a href="#/referencias" role="doc-biblioref" onclick="">2018</a>)</span></p>
-</div>
-</section>
-<section id="embryophyta-diversidad-y-relaciones-1" class="slide level2">
-<h2>Embryophyta: diversidad y relaciones</h2>
-
-<img data-src="images/viridiplante_arbol.jpg" class="r-stretch quarto-figure-center"><div class="footer">
-<p><span class="citation" data-cites="puttick2018">Puttick et al. (<a href="#/referencias" role="doc-biblioref" onclick="">2018</a>)</span></p>
-</div>
-</section>
-<section id="embryophyta-1" class="slide level2">
-<h2>Embryophyta</h2>
+<img data-src="https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/tallo_primario_comparacion.png?raw=true" class="r-stretch quarto-figure-center"><p class="caption">Fig&nbsp;7: Comparación entre diferentes tipos de estelas. Tomado de <span class="citation" data-cites="nabors2004">Nabors (<a href="#/referencias" role="doc-biblioref" onclick="">2004</a>)</span>.</p></section>
+<section id="crecimiento-secundario-tejidos" class="slide level2">
+<h2>Crecimiento secundario: tejidos</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li>Bryophyta <em>s. l.</em>
+<li>Peridermis
 <ul>
-<li>Anthocerophyta</li>
-<li>Setaphyta
+<li>Súber, felógeno, felodermis</li>
+</ul></li>
+<li>Córtex</li>
+<li>Haces vasculares
 <ul>
-<li>Marchantiophyta</li>
-<li>Bryophyta <em>s. s.</em></li>
+<li>Xilema y floema secundario, cambium vascular</li>
 </ul></li>
-</ul></li>
+<li>Medula</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<ul>
-<li>Tracheophyta
-<ul>
-<li>Lycopodiophyta</li>
-<li>Euphyllophyta
-<ul>
-<li>Monilophyta</li>
-<li>Embryophyta
-<ul>
-<li>Gimnospermae</li>
-<li>Angiospermae</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="anthocerophyta" class="slide level2">
-<h2>Anthocerophyta</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Gametófito taloso (fase dominante)</li>
-<li>Esporófito
-<ul>
-<li>aéreo, alargado, cilíndrico, fotosintético y con crecimiento indeterminado</li>
-<li>dehiscencia longitudinal</li>
-<li>Columela de tejido estéril</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="anthocerophyta" class="quarto-figure quarto-figure-center">
+<div id="fig-tallo-secundario-partes" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/anthocerophyta.jpg"></p>
+<p><img data-src="images/tallo_secundario_partes.png"></p>
+<figcaption>Fig&nbsp;8: Tejidos presentes en tallo con crecimiento secundario. Tomado de <span class="citation" data-cites="megíaspacheco2017">Megías Pacheco et al. (<a href="#/referencias" role="doc-biblioref" onclick="">2017</a>)</span>.</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
 </section>
-<section id="anthocerophyta-ciclo-de-vida" class="slide level2">
-<h2>Anthocerophyta: ciclo de vida</h2>
-
-<img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/anthocerotophyta_morfologia.jpg?raw=true" class="r-stretch quarto-figure-center"><div class="footer">
-<p>LadyofHats (<a href="https://commons.wikimedia.org/wiki/File:Hornwort_life_cicle_svg_diagram.svg">2009</a>)</p>
-</div>
-</section>
-<section id="marchantiophyta" class="slide level2">
-<h2>Marchantiophyta</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Gametófito folioso o taloso (fase dominante)</li>
-<li>Esporofito pequeño, no fotosintético y de corta duración</li>
-<li>Esporangio (cápsula)</li>
-<li>Cuerpos oleíferos</li>
-<li>Eláteres</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="marchantiophyta" class="quarto-figure quarto-figure-center">
+<section id="crecimiento-secundario-desarrollo" class="slide level2">
+<h2>Crecimiento secundario: desarrollo</h2>
+<div id="fig-crecimiento-secundario-desarrollo" class="quarto-layout-panel">
 <figure>
-<p><img data-src="images/marchantiophyta.jpg" style="width:80.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="haeckel1904">Haeckel (<a href="#/referencias" role="doc-biblioref" onclick="">1904</a>)</span></p>
-</div>
-</section>
-<section id="marchantiophyta-talosas" class="slide level2">
-<h2>Marchantiophyta: talosas</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Rizoides uniseriados y filamentosos</li>
-<li>Poros</li>
-<li>Copas (reproducción asexual)</li>
-<li>Anteridióforos</li>
-<li>Arquegonióforo</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="marchantiophyta-talosas" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/marchantiophyta_talosas.jpg"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
-</section>
-<section id="marchantiophyta-foliosas" class="slide level2">
-<h2>Marchantiophyta: foliosas</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Eje dorsiventral a forma de <em>tallo</em> con tres filas de <em>hojas</em> de tamaño variable</li>
-<li>Anteridios en ramas laterales (androceo)</li>
-<li>Arquegonios en el extremo del eje (perianto)</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="images/marchantiophyta_foliosa_1.jpg" id="marchantiophyta-foliosa-1" data-fig-align="center"> <img data-src="images/marchantiophyta_foliosa_2.png" id="marchantiophyta-foliosa-2" data-fig-align="center"></p>
-</div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span>; <span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span></p>
-</div>
-</section>
-<section id="marchantiophyta---ciclo-de-vida" class="slide level2">
-<h2>Marchantiophyta: - ciclo de vida</h2>
-
-<img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/marchantiophyta_ciclo.png?raw=true" class="r-stretch quarto-figure-center"><div class="footer">
-<p><span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span></p>
-</div>
-</section>
-<section id="bryophyta" class="slide level2 smaller">
-<h2>Bryophyta</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Gametófito folioso (fase dominante)
-<ul>
-<li>Eje erecto o rastrero (caulidio)</li>
-<li><em>Hojas</em> pequeñas, delgadas y sésiles (filidios), con costa</li>
-<li>Rizoides pluricelulares y ramificados</li>
-</ul></li>
-<li>Esporófito aéreo y alargado
-<ul>
-<li>Seta, opérculo y caliptra</li>
-</ul></li>
-<li>Hidroides y Leptoides (conducción)</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="bryophyta-ciclo" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/bryophyta.jpg"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
-</section>
-<section id="bryophyta-ciclo-de-vida" class="slide level2">
-<h2>Bryophyta: ciclo de vida</h2>
-
-<img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/briophyta_ciclo.png?raw=true" class="r-stretch quarto-figure-center"><div class="footer">
-<p><span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span></p>
-</div>
-</section>
-<section id="tracheophyta" class="slide level2">
-<h2>Tracheophyta</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Esporofito (fase dominante)
-<ul>
-<li>ramificado e independiente de vida larga</li>
-</ul></li>
-<li>Células con pared secundaria lignificada</li>
-<li>Esclerénquima y colénquima</li>
-<li>Xilema y floema</li>
-<li>Raíces verdaderas con endodermis</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="tracheophyta" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/tracheophyta.jpg" style="width:80.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="footer">
-<p>Kostka (<a href="https://commons.wikimedia.org/wiki/File:Tracheophyta.jpg">2023</a>)</p>
-</div>
-</section>
-<section id="lycopodiophyta" class="slide level2">
-<h2>Lycopodiophyta</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Raíces bipodales con protoxilema endarco</li>
-<li>Tallo con protoxilema exarco</li>
-<li>Hojas licofilas o micrófilas</li>
-<li>Lycopodiales
-<ul>
-<li>Lycopodiaceae</li>
-</ul></li>
-<li>Isoetales
-<ul>
-<li>Isoetaceae</li>
-<li>Sellaginellaceae</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="lycopodiophyta" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/lycopodiophyta.jpg" style="width:70.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="thomé1886">Thomé (<a href="#/referencias" role="doc-biblioref" onclick="">1886</a>)</span></p>
-</div>
-</section>
-<section id="lycopodiales" class="slide level2">
-<h2>Lycopodiales</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Hierbas erectas, postradas o pendulas</li>
-<li>Microfilos espiralados o verticilados</li>
-<li>Homospóricos</li>
-<li>Esporangios en la cara adaxial de los esporofilos (estrobilos cuando están agrupados)</li>
-<li>Raiz y tallo dicotómicamente ramificados</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="lycopodiales" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/lycopodiaceae.jpg"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
-</section>
-<section id="lycopodiales-ciclo-de-vida" class="slide level2">
-<h2>Lycopodiales: ciclo de vida</h2>
-
-<img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/lycopodium_ciclo.png?raw=true" class="r-stretch quarto-figure-center"><div class="footer">
-<p><span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span></p>
-</div>
-</section>
-<section id="isoetales" class="slide level2">
-<h2>Isoetales</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Presencia de ligula</li>
-<li>Heterospóricos
-<ul>
-<li>Megasporas producidas en megasporocito</li>
-<li>Microsporas producidas en microsporocitos</li>
-</ul></li>
-<li>Endospóricos (gametofito se desarrolla dentro de la pared de esporas)</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="heterosporia" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/heterosporia.jpg"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
-</section>
-<section id="isoetaceae" class="slide level2">
-<h2>Isoetaceae</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Usualmente acuáticas (parcialmente sumergidas)</li>
-<li>Microfilos en espiral, ensanchados en la base y apicalmente lineales a aciculares.</li>
-<li>Esporangios en la cara adaxial de los esporofilos</li>
-</ul>
-</div><div class="column" style="width:50%;">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 47.1%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/isoetaceae.jpg"></p>
+<p><img data-src="images/tallo_crecimiento_secundario_1.png" width="359"></p>
 </figure>
 </div>
 </div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
-</section>
-<section id="sellaginellaceae" class="slide level2">
-<h2>Sellaginellaceae</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Hierbas erectas a postradas</li>
-<li>Microfilos en espiral, homomorficos (isofilia) o dimorficos (anisofilia)</li>
-<li>Esporofilos en estrobilos</li>
-<li>Megasporangio en megasporofilos y microsporangios en microsporofilos</li>
-</ul>
-</div><div class="column" style="width:50%;">
+<div class="quarto-layout-cell" style="flex-basis: 52.9%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/sellaginellaceae.jpg"></p>
+<p><img data-src="images/tallo_crecimiento_secundario_2.png" width="403"></p>
 </figure>
 </div>
 </div>
 </div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
+<p></p><figcaption>Fig&nbsp;9: Desarrollo del crecimiento secundario en el tallo. Tomado de <span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span>.</figcaption><p></p>
+</figure>
 </div>
 </section>
-<section id="sellaginellaceae-ciclo-de-vida" class="slide level2">
-<h2>Sellaginellaceae: ciclo de vida</h2>
-
-<img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/selaginella_ciclo.png?raw=true" class="r-stretch quarto-figure-center"><div class="footer">
-<p><span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span></p>
-</div>
-</section>
-<section id="monilophyta" class="slide level2">
-<h2>Monilophyta</h2>
+<section id="crecimiento-secundario-partes" class="slide level2 smaller">
+<h2>Crecimiento secundario: partes</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li><p>Sifonostela</p></li>
-<li><p>Protoxilema mesarco</p></li>
-<li><p>Divisiones:</p>
+<li>Corteza o ritidoma
 <ul>
-<li>Equisetopsida</li>
-<li>Psilotopsida</li>
-<li>Marattiopsida</li>
-<li>Polypodiopsida</li>
+<li>externa e interna</li>
 </ul></li>
+<li>Cambium</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<div id="vascular_organizacion" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/vascular_organizacion.png?raw=true" style="width:70.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="megíaspacheco2017">Megías Pacheco et al. (<a href="#/referencias" role="doc-biblioref" onclick="">2017</a>)</span></p>
-</div>
-</section>
-<section id="equisetopsida" class="slide level2">
-<h2>Equisetopsida</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
 <ul>
-<li>Tallos acanalados</li>
-<li>Hojas reducidas, verticiladas y marginalmente fusionadas</li>
-<li>Esporangióforos en estróbilos</li>
-<li>Esporas fotosintéticas con eláteres</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="equisetopsida" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/equisetopsida.jpg"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
-</section>
-<section id="equisetopsida-ciclo-de-vida" class="slide level2">
-<h2>Equisetopsida: ciclo de vida</h2>
-
-<img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/equisetum_ciclo.png?raw=true" class="r-stretch quarto-figure-center"><div class="footer">
-<p><span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span></p>
-</div>
-</section>
-<section id="psilotopsida" class="slide level2">
-<h2>Psilotopsida</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
+<li>Madera
 <ul>
-<li><p>Gametofito no fotosintético y subterráneo</p></li>
-<li><p>Esporangio eusporangiado ubicado adaxialmente</p></li>
-<li><p>Raíz sin pelos radicales/ramificaciones o ausente</p></li>
-<li><p>Ordenes:</p>
-<ul>
-<li>Ophioglossales</li>
-<li>Psilotales</li>
+<li>Albura y duramen</li>
 </ul></li>
+<li>Medula</li>
 </ul>
-</div><div class="column" style="width:50%;">
-<div id="psilotopsida" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/psilotopsida.jpg"></p>
-</figure>
 </div>
 </div>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
-</section>
-<section id="marattiopsida" class="slide level2">
-<h2>Marattiopsida</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Esporangios eusporangiados fusionados formando un sinangio</li>
-<li>Sifonostela policíclica</li>
-<li>Frondas</li>
-<li>Soros abaxiales, intramarginales, exindusiados (sin inducio).</li>
-<li>Canales mucilaginoso</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="marattiopsida" class="quarto-figure quarto-figure-center">
+<div class="column" style="width:30%;">
+<div id="fig-tallo-ritidoma" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/marattiopsida.jpg"></p>
+<p><img data-src="images/tallo_ritidoma.png"></p>
+<figcaption>Fig&nbsp;10: Ritidoma. Tomado de <span class="citation" data-cites="megíaspacheco2017">Megías Pacheco et al. (<a href="#/referencias" role="doc-biblioref" onclick="">2017</a>)</span>.</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:70%;">
+<div id="fig-crecimiento-secundario" class="quarto-layout-panel">
+<figure>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 56.5%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tallo_corteza.png" width="350"></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 43.5%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tallo_madera.png" width="270"></p>
 </figure>
 </div>
 </div>
 </div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
+<p></p><figcaption>Fig&nbsp;11: Partes del tallo con crecimiento secundario. Tomado de <span class="citation" data-cites="nabors2004">Nabors (<a href="#/referencias" role="doc-biblioref" onclick="">2004</a>)</span>.</figcaption><p></p>
+</figure>
+</div>
+</div>
 </div>
 </section>
-<section id="polypodiopsida" class="slide level2">
-<h2>Polypodiopsida</h2>
+<section id="anillos-de-crecimiento" class="slide level2">
+<h2>Anillos de crecimiento</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Esporangio leptosporangiado</li>
-<li>Soros con o sin indusio</li>
-<li>Frondas con prefoliación circinada</li>
-<li>La mayoría presenta rizomas</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div id="polypodiopsida-cyatheales" class="quarto-figure quarto-figure-center">
+<div class="column" style="width:60%;">
+<div id="fig-tallo-crecimiento-secundario" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/polypodiopsida_cyatheales.jpg"></p>
+<p><img data-src="https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/tallo_secundario.png?raw=true"></p>
+<figcaption>Fig&nbsp;12: Tallo con crecimiento secundario. Tomado de <span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span>.</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:40%;">
+<div id="fig-dendrocronologia" class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dendrocronología.jpg"></p>
+<figcaption>Fig&nbsp;13: Tronco de una secuoya gigante, Andrew E. Douglass como escala. Tomado de Arizona State Museum (<a href="https://ltrr.arizona.edu/giant_sequoia_slab">s.f.</a>).</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="footer">
-<p><span class="citation" data-cites="simpson2019">Simpson (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span></p>
-</div>
 </section>
-<section id="polypodiopsida-ciclo-de-vida" class="slide level2">
-<h2>Polypodiopsida: ciclo de vida</h2>
-
-<img data-src="https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/polypodium_ciclo.png?raw=true" class="r-stretch quarto-figure-center"><div class="footer">
-<p><span class="citation" data-cites="evert2013">Evert &amp; Eichhorn (<a href="#/referencias" role="doc-biblioref" onclick="">2013</a>)</span></p>
+<section id="crecimiento-anómalo" class="slide level2">
+<h2>Crecimiento anómalo</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<blockquote>
+<p>Término bajo el cual se han agrupado las conformaciones cambiales, los productos cambiales y los números cambiales que difieren de la condición “normal” más común, un cambium cilíndrico único que produce floema externamente y xilema internamente. <span class="citation" data-cites="carlquist2001">Carlquist (<a href="#/referencias" role="doc-biblioref" onclick="">2001</a>)</span>.</p>
+</blockquote>
+</div><div class="column" style="width:40%;">
+<div id="fig-tallo-anomalo" class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tallo_anomalo_bougainvillia.jpg" style="width:70.0%"></p>
+<figcaption>Fig&nbsp;14: Crecimiento anómalo en tallo de <em>Bougainvillia</em>. Tomado de <span class="citation" data-cites="spicer2010">Spicer &amp; Groover (<a href="#/referencias" role="doc-biblioref" onclick="">2010</a>)</span>.</figcaption>
+</figure>
 </div>
-</section>
+</div>
+</div>
+</section></section>
 <section>
 <section id="procedimiento" class="title-slide slide level1 center">
 <h1>Procedimiento</h1>
 
 </section>
-<section id="anthocerophyta-1" class="slide level2">
-<h2>Anthocerophyta</h2>
+<section id="morfología-del-tallo" class="slide level2">
+<h2>Morfología del tallo</h2>
 <ul>
-<li><p>Identifique y describa las características del gametofito y el esporofito.</p></li>
-<li><p>Cortes transversales con Safranina y Azul Alcián del gametofio y esporofito de Anthocerophyta.</p></li>
-<li><p>Montaje húmedo de esporas de Anthocerophyta.</p></li>
+<li>En diferentes plantas identifique y ubique vástago, tallo, fitómeros, nudos, entrenudos y yemas axilares.</li>
 </ul>
 </section>
-<section id="marchantiophyta-1" class="slide level2">
-<h2>Marchantiophyta</h2>
+<section id="tallos-modificados-1" class="slide level2">
+<h2>Tallos modificados</h2>
 <ul>
-<li><p>Identifique y describa las características del gametofito y el esporofito.</p></li>
-<li><p>Cortes transversales con Safranina y Azul Alcián del gametofio y esporofito de Marchantiophyta.</p></li>
-<li><p>Montaje húmedo de esporas de Marchantiophyta.</p></li>
+<li>En diferentes plantas observe e identifique si el tallo es un rizoma, estolón, tubérculo, bulbo, cladófilo o cormo.</li>
 </ul>
 </section>
-<section id="bryophyta-1" class="slide level2">
-<h2>Bryophyta</h2>
+<section id="anatomía-del-tallo-en-crecimiento-primario" class="slide level2">
+<h2>Anatomía del tallo en crecimiento primario</h2>
 <ul>
-<li><p>Identifique y describa las características del gametofito y el esporofito.</p></li>
-<li><p>Cortes transversales con Safranina y Azul Alcián del gametofio y esporofito de Bryophyta.</p></li>
-<li><p>Montaje húmedo de esporas de Bryophyta.</p></li>
+<li>Cortes transversales con Safranina y Azul Alcián de tallos de Monocotyledoneae y Eudicotyledoneae. Observe e identifique: epidermis, córtex, haces vasculares y médula, tejidos de sostén, estela.</li>
 </ul>
 </section>
-<section id="lycopodiophyta-1" class="slide level2">
-<h2>Lycopodiophyta</h2>
+<section id="anatomía-del-tallo-en-crecimiento-secundario" class="slide level2 smaller">
+<h2>Anatomía del tallo en crecimiento secundario</h2>
 <ul>
-<li><p>Identifique y describa la orientación de los ejes, la disposición y forma de las microfilas, posición y forma de los estróbilos.</p></li>
-<li><p>Cortes transversales con Safranina y Azul Alcián de tallos de Lycopodium.</p></li>
-<li><p>Montaje húmedo de esporas de Lycopodium.</p></li>
+<li><p>Cortes transversales con Safranina y Azul Alcián de tallos de Gymnospermae y Eudicotyledoneae. Observe e identifique: súber, felógeno, felodermo, parénquima, floema secundario, cambium vascular y xilema secundario, además de los tejidos primarios que puedan quedar.</p></li>
+<li><p>Cortes transversales, radiales y tangenciales con Safranina y Azul Alcián de tallos de Gymnospermae y Eudicotyledoneae. Observe e identifique: los elementos de xilema, rayos del xilema, médula, madera de estación seca, madera de estación lluviosa y canales resiníferos.</p></li>
 </ul>
 </section>
-<section id="monilophyta-1" class="slide level2">
-<h2>Monilophyta</h2>
+<section id="estudio-macroscópico-del-tallo-en-crecimiento-secundario" class="slide level2">
+<h2>Estudio macroscópico del tallo en crecimiento secundario</h2>
 <ul>
-<li><p>En Equisetum identifique y describa la orientación y forma de los ejes, la disposición de las megafilas, la posición y la forma de los estróbilos.</p></li>
-<li><p>Cortes transversales con Safranina y Azul Alcián de tallos de Equisetum.</p></li>
-<li><p>Montaje húmedo de esporas de Equisetum.</p></li>
+<li>En bloques de madera de tallos de Gymnospermae y Angiospermae. Observe e identifique: súber, felógeno, felodermo, floema secundario, región del cambium vascular, xilema secundario, rayos del xilema, médula, canales resiniferos y mucilaginosos. Además de albura y duramen.</li>
 </ul>
 </section>
-<section id="monilophyta-2" class="slide level2">
-<h2>Monilophyta</h2>
+<section id="tallos-anómalos" class="slide level2">
+<h2>Tallos anómalos</h2>
 <ul>
-<li><p>En diferentes Monilophyta (excepto Equisetum) identifique y describa la orientación de los ejes, forma y complejidad de las frondes, vernación, presencia de pelos y escamas, etc. Además identifique y describa presencia y formas de los soros e indusio.</p></li>
-<li><p>Cortes transversales con Safranina y Azul Alcián de tallos de Monilophyta (excepto Equisetum).</p></li>
-<li><p>Montaje húmedo de esporas de Monilophyta (excepto Equisetum).</p></li>
+<li>Cortes transversales con Safranina y Azul Alcián de tallos de <em>Aristolochia ringens</em> y otras plantas trepadoras. Observe e identifique las diferencias que presentan respecto a los tallos ya observados.</li>
 </ul>
 </section></section>
-<section>
 <section id="preguntas" class="title-slide slide level1 center">
 <h1>¿Preguntas?</h1>
 
 </section>
-<section id="próximo-práctica" class="slide level2">
-<h2>Próximo práctica</h2>
+
+<section>
+<section id="próximo-práctica" class="title-slide slide level1 center">
+<h1>Próximo práctica</h1>
+
 </section>
 <section id="referencias" class="slide level2 smaller scrollable">
 <h2>Referencias</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-evert2013" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-bonifacino2021" class="csl-entry" role="listitem">
+Bonifacino, J. M., Speroni, G., González, A., González, S., Souza, M., Trujillo, C., Valtierra, V., &amp; Piastri Lombardo, S. (2021). <em>Guía de Botánica 2021</em>. <a href="http://fagro2.fagro.edu.uy/~bioveg/downloads/botanica_2021.pdf">http://fagro2.fagro.edu.uy/~bioveg/downloads/botanica_2021.pdf</a>
+</div>
+<div id="ref-carlquist2001" class="csl-entry" role="listitem">
+Carlquist, S. (2001). <em>Comparative wood anatomy</em>. Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-662-04578-7">https://doi.org/10.1007/978-3-662-04578-7</a>
+</div>
+<div id="ref-evert2013" class="csl-entry" role="listitem">
 Evert, R. F., &amp; Eichhorn, S. E. (2013). <em>Raven biology of plants</em> (Eighth edition). W.H. Freeman; Company Publishers.
 </div>
-<div id="ref-gitzendanner2018" class="csl-entry" role="doc-biblioentry">
-Gitzendanner, M. A., Soltis, P. S., Wong, G. K.-S., Ruhfel, B. R., &amp; Soltis, D. E. (2018). Plastid phylogenomic analysis of green plants: A billion years of evolutionary history. <em>American Journal of Botany</em>, <em>105</em>(3), 291–301. <a href="https://doi.org/10.1002/ajb2.1048">https://doi.org/10.1002/ajb2.1048</a>
-</div>
-<div id="ref-haeckel1904" class="csl-entry" role="doc-biblioentry">
-Haeckel, E. (1904). <em>Kunstformen der natur</em>. Verlag des Bibliographischen Instituts. <a href="https://www.biodiversitylibrary.org/item/104650">https://www.biodiversitylibrary.org/item/104650</a>
-</div>
-<div id="ref-megíaspacheco2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-megíaspacheco2017" class="csl-entry" role="listitem">
 Megías Pacheco, M., Molist García, P., &amp; Pombal Diego, M. Á. (2017). <em>Atlas de histología vegetal y animal</em>. <a href="https://mmegias.webs.uvigo.es/">https://mmegias.webs.uvigo.es/</a>
 </div>
-<div id="ref-puttick2018" class="csl-entry" role="doc-biblioentry">
-Puttick, M. N., Morris, J. L., Williams, T. A., Cox, C. J., Edwards, D., Kenrick, P., Pressel, S., Wellman, C. H., Schneider, H., Pisani, D., &amp; Donoghue, P. C. J. (2018). The Interrelationships of Land Plants and the Nature of the Ancestral Embryophyte. <em>Current Biology</em>, <em>28</em>(5), 733–745.e2. <a href="https://doi.org/10.1016/j.cub.2018.01.063">https://doi.org/10.1016/j.cub.2018.01.063</a>
+<div id="ref-nabors2004" class="csl-entry" role="listitem">
+Nabors, M. W. (2004). <em>Introduction to Botany</em>. Pearson Benjamin Cummings.
 </div>
-<div id="ref-simpson2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-nabors2006" class="csl-entry" role="listitem">
+Nabors, M. W. (2006). <em>Introducción a la Botánica</em>. Pearson Educación, S.A.
+</div>
+<div id="ref-simpson2019" class="csl-entry" role="listitem">
 Simpson, M. G. (2019). <em>Plant systematics</em> (Third edition). Academic Press, an imprint of Elsevier.
 </div>
-<div id="ref-thomé1886" class="csl-entry" role="doc-biblioentry">
-Thomé, O. W. (1886). <em>Flora von deutschland, österreich und der schweiz: Vols. Bd.1 [1886]</em>. <a href="https://www.biodiversitylibrary.org/item/194265">https://www.biodiversitylibrary.org/item/194265</a>
+<div id="ref-spicer2010" class="csl-entry" role="listitem">
+Spicer, R., &amp; Groover, A. (2010). Evolution of development of vascular cambia and secondary growth. <em>New Phytologist</em>, <em>186</em>(3), 577–592. <a href="https://doi.org/10.1111/j.1469-8137.2010.03236.x">https://doi.org/10.1111/j.1469-8137.2010.03236.x</a>
 </div>
 </div>
 
@@ -978,6 +728,7 @@ Thomé, O. W. (1886). <em>Flora von deutschland, österreich und der schweiz: Vo
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -992,18 +743,19 @@ Thomé, O. W. (1886). <em>Flora von deutschland, österreich und der schweiz: Vo
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
 'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
@@ -1052,7 +804,7 @@ Thomé, O. W. (1886). <em>Flora von deutschland, österreich und der schweiz: Vo
         center: false,
 
         // Enables touch navigation on devices with touch input
-        touch: true,
+        touch: false,
 
         // Loop the presentation
         loop: false,
@@ -1170,7 +922,7 @@ Thomé, O. W. (1886). <em>Flora von deutschland, österreich und der schweiz: Vo
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -1203,9 +955,23 @@ Thomé, O. W. (1886). <em>Flora von deutschland, österreich und der schweiz: Vo
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
       });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
       const clipboard = new window.ClipboardJS('.code-copy-button', {
-        target: function(trigger) {
-          return trigger.previousElementSibling;
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
         }
       });
       clipboard.on('success', function(e) {
@@ -1253,7 +1019,7 @@ Thomé, O. W. (1886). <em>Flora von deutschland, österreich und der schweiz: Vo
           },
           interactive: true,
           interactiveBorder: 10,
-          theme: 'quarto-reveal',
+          theme: 'light-border',
           placement: 'bottom-start'
         };
           config['offset'] = [0,0];
@@ -1310,12 +1076,12 @@ Thomé, O. W. (1886). <em>Flora von deutschland, österreich und der schweiz: Vo
         }
       }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-          var filterRegex = new RegExp(/https:\/\/alexespinosaco\.github\.io\/biologia-plantas-laboratorio-presentaciones\//);
+          var filterRegex = new RegExp("https:\/\/alexespinosaco\.github\.io\/biologia-plantas");
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href);
         }
         // Inspect non-navigation links and adorn them if external
-        var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {

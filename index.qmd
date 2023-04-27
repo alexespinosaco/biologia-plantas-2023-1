@@ -1,9 +1,0 @@
----
-title: "Bienvenida"
-listing: 
-  contents: presentaciones
-  sort: "date desc"
-  
----
-
-
