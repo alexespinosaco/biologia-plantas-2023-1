@@ -3,6 +3,7 @@ title: "Raíz"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
 date: 2023-04-20
+image: images/raiz_templo.jpg
 
 bibliography: references-raiz.bib
 

@@ -3,6 +3,7 @@ title: "Histología II"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
 date: 2023-03-09
+image: https://github.com/alexespinosaco/manual-laboratorio-biologia-plantas/blob/main/images/tallo_cyperus_200x.png?raw=true
 
 bibliography: references-histologia-2.bib
 

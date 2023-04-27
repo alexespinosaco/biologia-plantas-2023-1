@@ -3,6 +3,7 @@ title: "Diversidad"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
 date: 2023-03-23
+image: images/embryophyta.jpg
 
 bibliography: references-diversidad.bib
 

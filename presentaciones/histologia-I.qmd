@@ -3,6 +3,7 @@ title: "Histología I"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
 date: 2023-03-02
+image: images/hoja_ficus.png
 
 bibliography: references-histologia-1.bib
 

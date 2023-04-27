@@ -3,6 +3,7 @@ title: "Tallo"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
 date: 2023-04-27
+image: images/ceroxylon_quindiuense.jpg
 
 bibliography: references-tallo.bib
 
