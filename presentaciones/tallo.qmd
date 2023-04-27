@@ -1,0 +1,214 @@
+---
+title: "Tallo"
+subtitle: "Biología de las Plantas: laboratorio"
+author: "Álex Espinosa Correa"
+date: 2023-04-27
+
+bibliography: references-tallo.bib
+
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: true
+    logo: images/geobota_logo.png
+    footer: "[alexespinosaco](http://alexespinosaco.github.io)"
+    controls: true
+    touch: false
+    chalkboard: true
+---
+
+# Introducción
+
+##  {.smaller}
+
+::: columns
+::: {.column width="50%"}
+> Aparte del uso de diversos tejidos vegetales como alimento, ningún tejido vegetal ha desempeñado un papel más indispensable en la supervivencia humana a lo largo de la historia que la madera, o xilema secundario. Entre otras cosas, la madera se ha utilizado para construir refugios, encender fuego para calentarse y cocinar, fabricar armas, muebles, herramientas y juguetes, fabricar pasta de papel y como medio de transporte en forma de balsas, barcos y ruedas. @evert2013.
+:::
+
+::: {.column width="50%"}
+![La Palma de Cera, *Ceroxylon quindiuense*, la Monocotyledoneae más alta del mundo. Tomado de Bayer ([2014](https://upload.wikimedia.org/wikipedia/commons/e/e3/Palma_de_cera_del_Quind%C3%ADo_%28Ceroxylon_quindiuense%29_%2814343821178%29.jpg)).](images/ceroxylon_quindiuense.jpg)
+:::
+:::
+
+## Vástago {.smaller}
+
+::: columns
+::: {.column width="30%"}
+> Cualquier tallo individual y sus hojas, así como cualquier estructura reproductora que surja del tallo, como las flores. @nabors2006.
+:::
+
+::: {.column width="70%"}
+![Principales estructuras. Tomado de @bonifacino2021.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/morfologia_basica.png?raw=true){#fig-estructuras fig-align="center" width="60%"}
+:::
+:::
+
+## Tallo {.smaller}
+
+::: columns
+::: {.column width="40%"}
+> Órgano generalmente cilíndrico que produce hojas, suele funcionar en soporte y elevación de hojas y estructuras reproductivas, además en la conducción de agua, minerales y azúcares; en las plantas vasculares se deriva inicialmente del epicótilo del embrión y crece generalmente hacia arriba. @simpson2019.
+:::
+
+::: {.column width="60%"}
+![Partes del tallo. Tomado de @evert2013.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/vastago.png?raw=true){#fig-vastago fig-align="center" width="40%"}
+:::
+:::
+
+## Tallos modificados
+
+![Tipo de tallos. Tomado de @simpson2019.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/tallo_tipos.png?raw=true){#fig-tallo-tipos fig-align="center"}
+
+## Crecimiento primario
+
+::: columns
+::: {.column width="50%"}
+-   Epidermis
+-   Córtex
+    -   Parénquima, esclérenquima y colénquima
+-   Cilindro vascular
+    -   Xilema y floema primarios
+-   Médula
+    -   Parénquima
+:::
+
+::: {.column width="50%"}
+![Haces vascualres. Tomado de @megíaspacheco2017.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/vascular_organizacion.png?raw=true){#fig-haces-vasculares fig-align="center" width="60%"}
+:::
+:::
+
+## Crecimiento primario: desarrollo
+
+::: columns
+::: {.column width="50%"}
+![Teorías del crecimiento primario del tallo. Tomado de @nabors2004.](images/tallo_meristema_apical_teorias.png){#fig-tallo-teorias fig-align="center" width="50%"}
+:::
+
+::: {.column width="50%"}
+![Meristema apical del vastago. Tomado de @evert2013.](images/tallo_meristema_apical.png){#fig-tallo-meristema fig-align="center" width="67%"}
+:::
+:::
+
+## Crecimiento primario: comparación
+
+![Comparación entre diferentes tipos de estelas. Tomado de @nabors2004.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/tallo_primario_comparacion.png?raw=true){#fig-tallo-comparacion fig-align="center"}
+
+## Crecimiento secundario: tejidos
+
+::: columns
+::: {.column width="50%"}
+-   Peridermis
+    -   Súber, felógeno, felodermis
+-   Córtex
+-   Haces vasculares
+    -   Xilema y floema secundario, cambium vascular
+-   Medula
+:::
+
+::: {.column width="50%"}
+![Tejidos presentes en tallo con crecimiento secundario. Tomado de @megíaspacheco2017.](images/tallo_secundario_partes.png){#fig-tallo-secundario-partes fig-align="center"}
+:::
+:::
+
+## Crecimiento secundario: desarrollo
+
+::: {#fig-crecimiento-secundario-desarrollo layout-ncol="2"}
+![](images/tallo_crecimiento_secundario_1.png){fig-align="center" width="359"}
+
+![](images/tallo_crecimiento_secundario_2.png){fig-align="center" width="403"}
+
+Desarrollo del crecimiento secundario en el tallo. Tomado de @evert2013.
+:::
+
+## Crecimiento secundario: partes {.smaller}
+
+::: columns
+::: {.column width="50%"}
+-   Corteza o ritidoma
+    -   externa e interna
+-   Cambium
+:::
+
+::: {.column width="50%"}
+-   Madera
+    -   Albura y duramen
+-   Medula
+:::
+:::
+
+::: columns
+::: {.column width="30%"}
+![Ritidoma. Tomado de @megíaspacheco2017.](images/tallo_ritidoma.png){#fig-tallo-ritidoma fig-align="center"}
+:::
+
+::: {.column width="70%"}
+::: {#fig-crecimiento-secundario layout-ncol="2"}
+![](images/tallo_corteza.png){fig-align="center" width="350" height="350"}
+
+![](images/tallo_madera.png){fig-align="center" width="270" height="350"}
+
+Partes del tallo con crecimiento secundario. Tomado de @nabors2004.
+:::
+:::
+:::
+
+## Anillos de crecimiento
+
+::: columns
+::: {.column width="60%"}
+![Tallo con crecimiento secundario. Tomado de @evert2013.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/tallo_secundario.png?raw=true){#fig-tallo-crecimiento-secundario fig-align="center"}
+:::
+
+::: {.column width="40%"}
+![Tronco de una secuoya gigante, Andrew E. Douglass como escala. Tomado de Arizona State Museum ([s.f.](https://ltrr.arizona.edu/giant_sequoia_slab)).](images/dendrocronologi%CC%81a.jpg){#fig-dendrocronologia fig-align="center"}
+:::
+:::
+
+## Crecimiento anómalo
+
+::: columns
+::: {.column width="60%"}
+> Término bajo el cual se han agrupado las conformaciones cambiales, los productos cambiales y los números cambiales que difieren de la condición "normal" más común, un cambium cilíndrico único que produce floema externamente y xilema internamente. @carlquist2001.
+:::
+
+::: {.column width="40%"}
+![Crecimiento anómalo en tallo de *Bougainvillia*. Tomado de @spicer2010.](images/tallo_anomalo_bougainvillia.jpg){#fig-tallo-anomalo fig-align="center" width="70%"}
+:::
+:::
+
+# Procedimiento
+
+## Morfología del tallo
+
+-   En diferentes plantas identifique y ubique vástago, tallo, fitómeros, nudos, entrenudos y yemas axilares.
+
+## Tallos modificados
+
+-   En diferentes plantas observe e identifique si el tallo es un rizoma, estolón, tubérculo, bulbo, cladófilo o cormo.
+
+## Anatomía del tallo en crecimiento primario
+
+-   Cortes transversales con Safranina y Azul Alcián de tallos de Monocotyledoneae y Eudicotyledoneae. Observe e identifique: epidermis, córtex, haces vasculares y médula, tejidos de sostén, estela.
+
+## Anatomía del tallo en crecimiento secundario {.smaller}
+
+-   Cortes transversales con Safranina y Azul Alcián de tallos de Gymnospermae y Eudicotyledoneae. Observe e identifique: súber, felógeno, felodermo, parénquima, floema secundario, cambium vascular y xilema secundario, además de los tejidos primarios que puedan quedar.
+
+-   Cortes transversales, radiales y tangenciales con Safranina y Azul Alcián de tallos de Gymnospermae y Eudicotyledoneae. Observe e identifique: los elementos de xilema, rayos del xilema, médula, madera de estación seca, madera de estación lluviosa y canales resiníferos.
+
+## Estudio macroscópico del tallo en crecimiento secundario
+
+-   En bloques de madera de tallos de Gymnospermae y Angiospermae. Observe e identifique: súber, felógeno, felodermo, floema secundario, región del cambium vascular, xilema secundario, rayos del xilema, médula, canales resiniferos y mucilaginosos. Además de albura y duramen.
+
+## Tallos anómalos
+
+-   Cortes transversales con Safranina y Azul Alcián de tallos de *Aristolochia ringens* y otras plantas trepadoras. Observe e identifique las diferencias que presentan respecto a los tallos ya observados.
+
+# ¿Preguntas?
+
+# Próximo práctica
+
+## Referencias
+
+::: {#refs}
+:::
