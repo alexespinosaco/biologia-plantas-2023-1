@@ -1,0 +1,32 @@
+---
+title: "Hoja"
+subtitle: "Biología de las Plantas: laboratorio"
+author: "Álex Espinosa Correa"
+date: 2023-05-04
+#image: 
+
+bibliography: references-hoja.bib
+
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: true
+    logo: images/geobota_logo.png
+    footer: "[alexespinosaco](http://alexespinosaco.github.io)"
+    controls: true
+    touch: false
+    chalkboard: true
+---
+
+# Introducción
+
+# Procedimiento
+
+# ¿Preguntas?
+
+# Próximo práctica
+
+## Referencias
+
+::: {#refs}
+:::

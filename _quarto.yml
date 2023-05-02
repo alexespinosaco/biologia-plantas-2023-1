@@ -41,6 +41,7 @@ website:
           - href: presentaciones/diversidad.qmd
           - href: presentaciones/raiz.qmd
           - href: presentaciones/tallo.qmd
+          - href: presentaciones/hoja.qmd
 
 link-external-icon: false
 link-external-newwindow: true
