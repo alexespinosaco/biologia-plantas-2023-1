@@ -2,6 +2,7 @@
 title: "Raíz"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
+institute: Grupo de Estudios Botánicos GEOBOTA, Universidad de Antioquia
 date: 2023-04-20
 image: images/raiz_templo.jpg
 

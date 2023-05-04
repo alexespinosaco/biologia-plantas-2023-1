@@ -2,6 +2,7 @@
 title: "Histología I"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
+institute: Grupo de Estudios Botánicos GEOBOTA, Universidad de Antioquia
 date: 2023-03-02
 image: images/hoja_ficus.png
 
