@@ -3,7 +3,7 @@ title: "Hoja"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
 date: 2023-05-04
-#image: 
+image: images/hoja_diagrama.png
 
 bibliography: references-hoja.bib
 
@@ -19,6 +19,75 @@ format:
 ---
 
 # Introducción
+
+## Definición
+
+::: columns
+::: {.column width="50%"}
+> Órgano generalmente aplanado dorsi-ventralmente, que normalmente funciona en la fotosíntesis y la transpiración, a menudo modificado de diversas formas. @simpson2019
+:::
+
+::: {.column width="50%"}
+![El tamaño de las hojas. De la más pequeña a la más grande. Espinosa-Correa (2023).](images/hoja_comparacion.png){#fig-hoja-comparacion fig-aling="center"}
+:::
+:::
+
+## Partes
+
+![Partes de la hoja. Tomado de Assafn ([2019](%5Bhttps://upload.wikimedia.org/wikipedia/commons/7/7b/Diagram_of_simple_leaf-es.svg%5D)).](images/hoja_diagrama.png){#fig-hoja-partes fig-aling="center"}
+
+## Complejidad: simple vs compuesta {.smaller}
+
+::: columns
+::: {.column width="30%"}
+Distinguir los folíolos de las hojas:
+
+-   la yema se encuentra en la axila de las hojas (simples y compuestas), pero no en la axila de los folíolos.
+-   las hojas se encuentran en varios planos, mientras los folíolos se encuentran en el mismo plano
+:::
+
+::: {.column width="70%"}
+![Tipos de hoja según su complejidad. Tomado de @simpson2019.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/hoja_tipos.png?raw=true){#fig-hoja-complejidad fig-aling="center" width="75%"}
+:::
+:::
+
+## Filotaxia
+
+![Tipo de hoja según su filotaxia. Tomado de @bonifacino2011.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/hoja_filotaxia.png?raw=true){#fig-hoja-filotaxia fig-aling="center"}
+
+## Forma {.smaller}
+
+::: {#fig-hoja-forma layout-nrow="2"}
+![](images/hoja_lamina_1.png){fig-aling="center" width="900"}
+
+![](images/hoja_lamina_2.png){fig-aling="center" width="900"}
+
+Forma de la lamina. Tomado de @bonifacino2021.
+:::
+
+## Ápice, base y margen {.smaller}
+
+::: {#fig-hoja-base-apice layout-nrow="3"}
+![](images/hoja_apice.png){fig-aling="center" width="800"}
+
+![](images/hoja_base.png){fig-aling="center" width="800"}
+
+![](images/hoja_margen.png){fig-aling="center" width="800"}
+
+Tomado de @bonifacino2021.
+:::
+
+## Inseción al tallo
+
+![Formas de inserción de la hoja al tallo. Tomado de @bonifacino2011.](images/hoja_insercion.png){#fig-hoja-insercion fig-aling="center"}
+
+## Estípulas
+
+![Tipos de estípulas. Tomado de @bonifacino2011.](images/hoja_estipulas.png){#fig-hoja-estipulas fig-aling="center"}
+
+## Venación
+
+## Anatomía
 
 # Procedimiento
 
