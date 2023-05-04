@@ -2,6 +2,7 @@
 title: "Hoja"
 subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
+institute: Grupo de Estudios Botánicos GEOBOTA, Universidad de Antioquia
 date: 2023-05-04
 image: images/hoja_diagrama.png
 
@@ -51,7 +52,9 @@ Distinguir los folíolos de las hojas:
 :::
 :::
 
-## Filotaxia
+## Filotaxia {.smaller}
+
+> Disposición de las hojas en un tallo o rama. @beentje2016.
 
 ![Tipo de hoja según su filotaxia. Tomado de @bonifacino2011.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/hoja_filotaxia.png?raw=true){#fig-hoja-filotaxia fig-aling="center"}
 
@@ -77,19 +80,99 @@ Forma de la lamina. Tomado de @bonifacino2021.
 Tomado de @bonifacino2021.
 :::
 
-## Inseción al tallo
+## Inseción en el tallo
 
-![Formas de inserción de la hoja al tallo. Tomado de @bonifacino2011.](images/hoja_insercion.png){#fig-hoja-insercion fig-aling="center"}
+![Tipos de hoja según la forma de inserción. Tomado de @bonifacino2011.](images/hoja_insercion.png){#fig-hoja-insercion fig-aling="center"}
 
-## Estípulas
+## Estípulas {.smaller}
 
-![Tipos de estípulas. Tomado de @bonifacino2011.](images/hoja_estipulas.png){#fig-hoja-estipulas fig-aling="center"}
+> Apéndice, a menudo en forma de hoja, a cada lado de la parte basal de una hoja, o que rodea el tallo. @evert2013.
 
-## Venación
+![Tipos de estípulas. Tomado de @bonifacino2011.](images/hoja_estipulas.png){#fig-hoja-venacion-general fig-aling="center"}
 
-## Anatomía
+## Venación {.smaller}
+
+> Patrón de las venas y la ramificación de las venas de una hoja. @evert2013.
+
+![Terminología general de la venación de las hojas. Tomado de @simpson2019.](images/hoja_venacion_general.png){fig-aling="center"}
+
+## Venación {.smaller}
+
+![Terminología especializada de la venación de las hojas. Tomado de @simpson2019.](images/hoja_venacion_especializado.png){#fig-hoja-venacion-especializado fig-aling="center"}
+
+## Anatomía {.smaller}
+
+::: columns
+::: {.column width="50%"}
+Tejidos:
+
+-   Epidermis
+    -   Estomas, tricomas, etc.
+-   Mesofilo
+    -   Clorénquima
+        -   Parénquima en empalizada y esponjoso
+    -   Esclerénquima
+    -   Colénquima
+-   Haz vascular
+    -   Xilema y floema
+:::
+
+::: {.column width="50%"}
+
+![Esquema anatómico de una hoja. No se muestra el haz vascular. Tomado de Aibdescalzo ([2012](https://upload.wikimedia.org/wikipedia/commons/3/3c/Leaf_Tissue_Structure_es.svg)).](images/hoja_anatomia.png)
+
+:::
+:::
+
+## Anatomía: tipos de hoja
+
+### Según la distribución de los estomas:
+
+-   Anfistomática: estomas en ambas caras
+-   Epistomática: estomas sólo en la cara adaxial
+-   Hipostomática: estomas sólo en la cara abaxial
+
+## Anatomía: tipos de hoja
+
+### Según el mesofilo:
+
+-   Dorsiventral: parénquima en empalizada y parénquima esponjoso
+-   Isolateral:
+    -   capas de parénquima en empalizada, parénquima esponjoso y parénquima en empalizada
+    -   capas de clorénquima homogéneo, parénquima homogéneo incoloro, clorénquima homogéneo
+-   Indiferenciado: una capa de clorénquima homogéneo
+
+## Anatomía: tipos de hoja
+
+### Según la epidermis y el tipo de mesofilo:
+
+-   Bifacial: hay dos epidermis distintas y el mesofilo es dorsiventral. Las dos caras son distintas
+-   Equifacial: hay dos epidermis distintas y el mesofilo es isolateral o indiferenciado. Las caras son iguales
+-   Unifacial: hay una sola epidermis y el mesofilo es isolateral. Las caras son iguales
 
 # Procedimiento
+
+## Estructura externa de la hoja
+
+-   En hojas de diferentes plantas, observe e identifique: ápice, base, cara adaxial, cara abaxial, estípulas, lámina, margen, pecíolo, venación, yema axilar.
+
+## Estructura interna de la hoja
+
+-   Cortes transversales con Safranina y Azul Alcián de hojas de Angiospermae y Gymnospermae. Observe e identifique: cutícula, epidermis, parénquima en empalizada, parénquima esponjoso y tejido vascular, además asigne el tipo de hoja correspondiente.
+
+## Diversidad foliar {.smaller}
+
+-   En la mayor cantidad posible de hojas de Angiospermae y Gymnospermae, realice observaciones comparativas teniendo en cuenta:
+    -   Ápice: agudo, acuminado, obtuso, etc.
+    -   Base: aguda, cordada, obtusa, etc.
+    -   Estipulas: presencia o ausencia.
+    -   Filotaxia: alterna, opuesta, verticilada, etc.
+    -   Forma: elíptica, lanceolada, linear, etc.
+    -   Margen: dentado, entero, serrado, etc.
+    -   Pecíolo: peciolada, sesil, etc.
+    -   Tipo de hoja: simple o compuesta, si es compuesta indique el tipo exacto.
+    -   Venación: actinodromo, braquidodromo, craspedodromo, etc.
+    -   Modificaciones
 
 # ¿Preguntas?
 
