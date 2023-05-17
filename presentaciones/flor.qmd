@@ -20,3 +20,68 @@ format:
 ---
 
 # Introducción
+
+## Definición
+
+> Estructura reproductiva de las Angiospermae. Vastago modificado y determinado que porta esporofilas (estambres o carpelos), con o sin hojas exteriores modificadas, el perianto (sépalos y pétalos). Parte de la planta o de la inflorescencia. @simpson2019.
+
+## Partes
+
+![Partes de la flor. Tomado de @simpson2019.](images/flor_partes.png){#fig-flor-partes fig-aling="center"}
+
+## Verticilos y componentes
+
+| Verticilos | Componentes |
+|------------|-------------|
+| Cáliz      | Sépalos     |
+| Corola     | Pétalos     |
+| Androceo   | Estambres   |
+| Gineceo    | Carpelos    |
+
+
+::: columns
+::: {.column width="50%"}
+-   Perianto: conjunto de cáliz y corola.
+::: 
+::: {.column width="50%"}
+-   Perigonio: cáliz y corola indistinguibles.
+::: 
+:::
+
+## Perianto: ciclos y merosidad
+
+-   Ciclos: número de verticilos. Uni, bi o tri, tetra o multiseriado.
+-   Merosidad: número de partes por verticilos. Bi, tri, tetra, pentamero, etc.
+
+![Ciclos y merosidad del perianto. Tomado de @simpson2019.](images/flor_perianto_ciclos.png){#fig-flor-perianto-ciclos fig-aling="center"}
+
+## Perianto: fusión
+
+Cuando las partes florales de un mismo verticilo no están unidas se usa el prefijo *apo* o *poli*, cuando están unidas se usa *sin* o *sim*.
+
+![Tipos de fusión de sépalos y pétalos. Tomado de @simpson2019.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/flor_perianto.png?raw=true){#fig-flor-perianto-fusion fig-aling="center"}
+
+## Perianto: tipos
+
+![Tipos de perianto. Tomado de @simpson2019.](images/flor_perianto_tipos.png){#fig-flor-perianto-tipos fig-aling="center"}
+
+## Androceo
+
+## Gineceo
+
+## Sexo
+
+## Simetría
+
+## Inflorescencia
+
+# Procedimiento
+
+# ¿Preguntas?
+
+# Próximo práctica
+
+## Referencias
+
+::: {#refs}
+:::
