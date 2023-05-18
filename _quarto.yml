@@ -42,6 +42,7 @@ website:
           - href: presentaciones/raiz.qmd
           - href: presentaciones/tallo.qmd
           - href: presentaciones/hoja.qmd
+          - href: presentaciones/flor.qmd
 
 link-external-icon: false
 link-external-newwindow: true
