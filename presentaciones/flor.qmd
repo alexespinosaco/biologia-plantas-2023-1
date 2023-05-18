@@ -183,17 +183,41 @@ Cuando las partes florales de un mismo verticilo no están unidas se usa el pref
 
 ![Tipos de simetría de la flor. Tomado de @simpson2019.](images/flor_simetria.png){#fig-flor-simetria fig-aling="center"}
 
+---
+
+![](images/flor_meme.jpg){fig-aling="center"}
+
 ## Inflorescencia
 
 > Parte de la planta que lleva las flores, incluyendo todas sus brácteas, ramas y flores, pero excluyendo las hojas no modificadas. @beentje2016.
 
 ![Tipos de inflorescencia. Tomado de @bonifacino2021.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/flor_inflorescencia.png?raw=true){#fig-flor-inflorescencia fig-aling="center"}
 
-#
-
-![](images/flor_meme.jpg){fig-aling="center"}
-
 # Procedimiento
+
+## Morfología de la flor
+
+-   Realice observaciones comparativas entre una flor de Eudicotyledoneae y Monocotyledoneae. Identifique cada uno de los verticilos y componentes de estos.
+
+## Polen
+
+-   Realice montaje húmedo de diferentes anteras. Observe e identifique la unidad polínica, aberturas, estructura, polaridad, simetría, forma y tamaño
+
+## Diversidad de la flor {.smaller}
+
+-   Observe la mayor cantidad de flores de plantas de diferente especie. Tenga en cuenta:
+
+    -   Verticilos presentes: perianto (cáliz, corola), androceo, gineceo.
+    -   Número de componentes de cada verticilo: sépalos, pétalos, estambres, carpelos.
+    -   Flor completa o incompleta
+    -   Flor perfecta o imperfecta
+    -   Simetría: actinomorfa, irregular, zigomorfa.
+    -   Número de carpelos
+    -   Posición del ovario: ínfero, semi-ínfero, súpero,
+    -   Sexo de la flor: unisexual, bisexual.
+    -   Sexo de la especie: dioica, monoica.
+    -   Flores solitarias o en inflorescencia
+    -   Tipo de inflorescencia: espiga, capítulo, umbela, etc.
 
 # ¿Preguntas?
 
