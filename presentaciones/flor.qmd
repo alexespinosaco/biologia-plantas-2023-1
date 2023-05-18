@@ -4,7 +4,7 @@ subtitle: "Biología de las Plantas: laboratorio"
 author: "Álex Espinosa Correa"
 institute: Grupo de Estudios Botánicos GEOBOTA, Universidad de Antioquia
 date: 2023-05-18
-#image: images/hoja_diagrama.png
+image: images/flor_partes.png
 
 bibliography: references-flor.bib
 
@@ -21,9 +21,43 @@ format:
 
 # Introducción
 
-## Definición
+## Flores {.smaller}
+
+::: {layout-ncol=3}
+
+![*Rafflesia arnoldii*, la flor más grande. Tomado de LukeTriton ([2022](https://upload.wikimedia.org/wikipedia/commons/d/dd/Rafflesia_arnoldii%2C_Sumatra.jpg)).](images/flor_rafflesia_arnoldii.jpg){#fig-flor-rafflesia fig-aling="center"}
+
+![*Wolffia columbiana*, la flor más pequeña. Tomado de Lefnaer ([2017](https://upload.wikimedia.org/wikipedia/commons/5/52/Wolffia_columbiana_sl13.jpg)).](images/flor_wolffia_columbiana.jpg){#fig-flor-wolffia fig-aling="center"}
+
+![Rosa de jardín, la flor más famosa. Tomado de Ahmed Rupom ([2022](https://upload.wikimedia.org/wikipedia/commons/6/64/Garden_roses_%28yellow-red%29.jpg)). ](images/flor_garden_roses.jpg){#fig-flor-rosa fig-aling="center"}
+
+:::
+## Las inflorescencias más grandes {.smaller}
+
+::: {layout-ncol=3}
+
+![*Amorphophallus titanum*. Tomado de Barthlott ([2003](https://upload.wikimedia.org/wikipedia/commons/5/5a/Amorphophallus_titanum_%281%29_%28Aracerae%29_Titan_Arum_world_record_flower_2003_in_Botanical_Gardens_Bonn%2C_Foto_%C2%A9_W._Barthlott%2C_Bot.Gard._Bonn.jpg)). ](images/flor_amorphophallus_titanum.jpg){#fig-flor-amorphophallus fig-aling="center"}
+
+![*Puya raimondii*. Tomado de Roque ([2006](https://upload.wikimedia.org/wikipedia/commons/3/32/Puya_raimondii_h%C3%A1bito.jpg)).](images/flor_puya_raimondii.jpg){#fig-flor-puya fig-aling="center"}
+
+![*Corypha umbraculifera*. Tomado de PraveenP ([2009](https://upload.wikimedia.org/wikipedia/commons/0/04/Corypha_umbraculifera-flowering.JPG)). ](images/flor_corypha_umbraculifera.jpg){#fig-flor-corypha fig-aling="center"}
+
+:::
+
+## Definición 
+
+::: columns
+::: {.column width="60%"}
 
 > Estructura reproductiva de las Angiospermae. Vastago modificado y determinado que porta esporofilas (estambres o carpelos), con o sin hojas exteriores modificadas, el perianto (sépalos y pétalos). Parte de la planta o de la inflorescencia. @simpson2019.
+
+::: 
+::: {.column width="40%"}
+
+![Diversidad de flores. Tomado de Alvesgaspar ([2008](https://upload.wikimedia.org/wikipedia/commons/a/a5/Flower_poster_2.jpg)).](images/flor_diversidad.jpg){#fig-flor-diversidad fig-aling="center"}
+
+::: 
+:::
 
 ## Partes
 
@@ -38,14 +72,16 @@ format:
 | Androceo   | Estambres   |
 | Gineceo    | Carpelos    |
 
-
 ::: columns
 ::: {.column width="50%"}
 -   Perianto: conjunto de cáliz y corola.
-::: 
-::: {.column width="50%"}
 -   Perigonio: cáliz y corola indistinguibles.
-::: 
+:::
+
+::: {.column width="50%"}
+-   Completa: presenta todos los verticilos
+-   Incompleta: carece de algún verticilo
+:::
 :::
 
 ## Perianto: ciclos y merosidad
@@ -67,13 +103,95 @@ Cuando las partes florales de un mismo verticilo no están unidas se usa el pref
 
 ## Androceo
 
-## Gineceo
+> Verticilo floral que comprende todos los estambres. @evert2013.
 
-## Sexo
+![Partes de un estambre filamentoso y estructura de una antera. Tomado de @bonifacino2021.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/flor_androceo.png?raw=true){#fig-flor-androceo fig-aling="center"}
+
+## Polen {.smaller}
+
+> Gametofito másculino de las plantas con semilla. Fuente y portador de los gametos masculinos. @halbritter2018.
+
+::: columns
+::: {.column width="50%"}
+![Formación del polen. Tomado de @megíaspacheco2017.](images/flor_polen_formacion.png){#fig-flor-polen-formacion fig-aling="center"}
+:::
+
+::: {.column width="50%"}
+![Diversidad del polen. Tomado de @suárez-cervera2008.](images/flor_polen_diversidad.jpg){#fig-flor-polen-diversidad fig-aling="center" width="350"}
+:::
+:::
+
+## Gineceo: de carpelos y pistilos {.smaller}
+
+::: {.fragment fragment-index="1"}
+> [Gineceo: El conjunto de todos los carpelos. @evert2013.]{.fragment fragment-index="1"} [Verticilo femenino de una flor. El(los) pistilo(s). @beentje2016.]{.fragment fragment-index="4"}
+:::
+
+::: {.fragment fragment-index="2"}
+> Carpelo: unidad del gineceo. Megasporofila modificada, típicamente conduplicada (doblada longitudinalmente a lo largo de la vena media), que encierra uno o más óvulos. @simpson2019.
+:::
+
+::: {.fragment fragment-index="3"}
+> Pistilo: en flores apocárpicas, unidad del carpelo, estilo y estigma separados. En flores sincárpicas, todo el gineceo. Órgano femenino de la flor, cuando está completo consiste de ovario, estilo y estigma. @beentje2016
+:::
+
+## Gineceo: carpelos, fusión y lóculos {.smaller}
+
+-   Si el gineceo es apocárpico o unicarpelar, el número de carpelos y de lóculos es equivalente al número de pistilos.
+
+-   Si el gineceo es sincárpico, el número de carpelos es igual al número de estilos o estigmas si presenta más de uno, el número de loculos es variable. Si sólo tiene un estilo o estigma, generalmente el número de carpelos suele ser el número de lóculos.
+
+![Fusión del gineceo, número de carpelos y lóculos. Tomado de @simpson2019.](images/flor_gineceo_fusion.png){#fig-flor-gineceo-fusion fig-aling="center"}
+
+## Gineceo: posición {.smaller}
+
+> Ubicación o posición del gineceo respecto a las otras partes de la flor: androceo, cáliz, corola o hipanto[^1].
+
+[^1]: Estructura en forma de copa o tubular alrededor o encima del ovario, que lleva a lo largo de su margen los sépalos, pétalos y estambres. @simpson2019.
+
+![Posición del gineceo, androceo y perianto. Tomado de @simpson2019.](images/flor_gineceo_posicion.png){#fig-flor-gineceo-posicion fig-aling="center"}
+
+## Sexo {.smaller}
+
+::: fragment
+::: columns
+::: {.column width="50%"}
+### de la flor
+
+-   perfecta o bisexual (4)
+    -   carpelos y estambres
+-   imperfecta o unisexual
+    -   carpelos: pistilada (6)
+    -   estambres: estaminada (5)
+
+### de la planta
+
+-   hermafrodita (1)
+-   dioica (3 y 8)
+-   monoica (2 y 7)
+:::
+
+::: {.column width="50%"}
+![Sexo de la flor y de la planta. Tomado de @tormomolina2021.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/flor_sexualidad.jpg?raw=true){#fig-flor-sexo fig-aling="center"}
+:::
+:::
+:::
 
 ## Simetría
 
+> Evaluación de la presencia y número de planos de simetría o imágenes especualres en una flor en vista distal.
+
+![Tipos de simetría de la flor. Tomado de @simpson2019.](images/flor_simetria.png){#fig-flor-simetria fig-aling="center"}
+
 ## Inflorescencia
+
+> Parte de la planta que lleva las flores, incluyendo todas sus brácteas, ramas y flores, pero excluyendo las hojas no modificadas. @beentje2016.
+
+![Tipos de inflorescencia. Tomado de @bonifacino2021.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/flor_inflorescencia.png?raw=true){#fig-flor-inflorescencia fig-aling="center"}
+
+#
+
+![](images/flor_meme.jpg){fig-aling="center"}
 
 # Procedimiento
 
