@@ -1,0 +1,20 @@
+---
+title: "Fruto y semilla"
+subtitle: "Biología de las Plantas: laboratorio"
+author: "Álex Espinosa Correa"
+institute: Grupo de Estudios Botánicos GEOBOTA, Universidad de Antioquia
+date: 2023-05-25
+#image: images/flor_partes.png
+
+bibliography: references-fruto.bib
+
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: true
+    logo: images/geobota_logo.png
+    footer: "[alexespinosaco](http://alexespinosaco.github.io)"
+    controls: true
+    touch: false
+    chalkboard: true
+---
