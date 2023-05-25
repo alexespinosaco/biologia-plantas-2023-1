@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/presentaciones/fruto.html",
       "/presentaciones/flor.html",
       "/presentaciones/hoja.html",
       "/presentaciones/tallo.html",
