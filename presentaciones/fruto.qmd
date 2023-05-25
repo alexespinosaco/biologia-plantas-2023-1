@@ -23,10 +23,14 @@ format:
 
 ## El tamaño de las semillas
 
-::: {layout-ncol="2"}
+::: columns
+::: {.column width="50%" .fragment}
 ![Grano de sal (\>300 μm), fruto de *Wolffia* (300 μm), Semilla de mostaza (\>1000 μm), Semilla de orquídea (85 μm), semilla de *Poppy* (\>1000 μm). Tomado de @armstrong2023.](images/semilla_tamano.jpg){#fig-semilla-tamano fig-aling="center"}
 
+::: 
+::: {.column width="50%" .fragment}
 ![Semilla de *Lodoicea maldivica* de 30 cm. Tomado de WL ([2004](https://commons.wikimedia.org/wiki/File:Female_coco_de_mer_seed.jpg)).](images/semilla_lodoicea.jpg){#fig-fruto-solanum fig-aling="center"}
+:::
 :::
 
 ## Semilla: definición {.smaller}
