@@ -18,3 +18,257 @@ format:
     touch: false
     chalkboard: true
 ---
+
+# Introducción
+
+## Semilla: definición {.smaller}
+
+::: columns
+::: {.column width="30%"}
+> Estructura producida a partir de un óvulo fecundado mediante el cual se reproducen las Spermatophyta, consiste en un **embrión** y generalmente una **cubierta seminal** con **endospermo**. El megasporangio tegumentado. @beentje2016.
+:::
+
+::: {.column width="70%"}
+![Ciclo de vida de las Angiospermae. Tomado de @nabors2006.](images/angiospermae_ciclo.png){#fig-angiospermae-ciclo fig-aling="center" width="450"}
+:::
+:::
+
+## Semilla: partes
+
+![Partes de la semilla. Tomado de @simpson2019.](https://github.com/alexespinosaco/biologia-plantas-manual/blob/main/images/semilla.png?raw=true){#fig-semilla-partes fig-aling="center"}
+
+## Fruto: definición
+
+::: columns
+::: {.column width="40%"}
+> En Angiospermae, ovario (o grupo de ovarios) maduro que contiene las semillas, junto con cualquier parte adyacente que pueda fusionarse con él. @evert2013.
+:::
+
+::: {.column .fragment width="60%"}
+![¿Fruta o verdura? Tomado de @pagelow2023.](images/fruto_meme_1.jpg){#fig-fruto-meme-1 fig-aling="center" width="400"}
+:::
+:::
+
+## Fruto: partes
+
+![Partes del fruto y de la semilla. Tomado de Sarang ([2021](https://commons.wikimedia.org/wiki/File:Drupe_fruit_diagram.svg)).](images/fruto_esquema.png){#fig-fruto-esquema fig-aling="center"}
+
+## Frutos: tipos
+
+![Tipos de fruto según su origen. Tomado de @urry2020.](images/fruto_tipos_2.png){#fig-fruto-tipo-2 fig-aling="center"}
+
+## Frutos: tipos
+
+-   **Frutos simples**: originado de un solo pistilo de una flor.
+-   **Frutos agregados**: originado de múltiples pistilos de una única flor.
+-   **Frutos múltiples**: originado de la fusión de varias flores.
+
+![Origen de los tipos de fruto. Las partes rosadas son las corolas de las flores y las partes verdes son los pistilos, cada pistilo consiste en un ovario en forma de huevo con su estilo en forma de cuello y un estigma dividido. Tomado de @conrad2023.](images/fruto_tipos_1.gif){#fig-fruto-tipo-1 fig-aling="center"}
+
+## Frutos: clasificación {.smaller}
+
+Los frutos simples, así como la **unidad del fruto** de los frutos agregados y múltiples, se clasifican en función de:
+
+-   Carnoso o seco.
+-   Indehiscente o dehiscente.
+-   Tipo de dehiscencia.
+-   Número de carpelos y lóculos.
+-   Número de semillas/óvulos.
+-   Placentación.
+-   Estructura de la pared del pericarpio.
+-   Posición del ovario.
+
+## Frutos: clasificación
+
+![Tipos de frutos. Tomado de @bonifacino2011.](images/fruto_tipos_3.png){#fig-fruto-tipo-3 fig-aling="center"}
+
+## Frutos carnosos
+
+::: columns
+::: {.column width="40%"}
+La pared del fruto o la pared del ovario (pericarpo) es carnoso. Generalmente indehiscente.
+
+-   Baya
+    -   Hesperidio
+    -   Pepónide
+-   Drupa
+-   Pomo
+:::
+
+::: {.column .fragment width="60%"}
+![¡Es una baya! Tomado de @pagelow2023.](images/fruto_meme_2.jpg){#fig-fruto-meme-2 fig-aling="center" width="400"}
+:::
+:::
+
+## Frutos carnosos: baya {.smaller}
+
+> Fruto simple indehiscente con una a muchas semillas sumergidas en una pulpa carnosa. @beentje2016.
+
+::: {layout-ncol="3"}
+![*Musa sp.*, tomado de Salsero35 ([2019](https://commons.wikimedia.org/wiki/File:Banana_cross_section.png)).](images/fruto_musa.png){#fig-fruto-musa fig-aling="center"}
+
+![*Persea americana*, tomado de UCR ([s.f.](https://avocado.ucr.edu/what-kind-fruit-avocado)).](images/fruto_persea.jpeg){#fig-fruto-persea fig-aling="center"}
+
+![*Solanum lycopersicum*, tomado de rioMoros ([s.f.](https://www.riomoros.com/)).](images/fruto_solanum.jpg){#fig-fruto-solanum fig-aling="center"}
+:::
+
+## Frutos carnosos: hesperidio {.smaller}
+
+> Baya carnosa con una cáscara coriácea, la parte carnosa dividida en gajos (como una naranja) y múltiples semillas, cada una con una testa dura. @beentje2016.
+
+![*Citrus lemon*, tomado de @armstrong2023.](images/fruto_citrus.jpg){#fig-fruto-citrus fig-aling="center"}
+
+## Frutos carnosos: pepónoide {.smaller}
+
+::: columns
+::: {.column width="50%"}
+> Fruto (originado de un ovario) infero de las Cucurbitaceae, parecido a una baya con una corteza dura (exocarpio) y placentación parietal. @beentje2016.
+
+![*Citrullus lanatus*, tomado de @armstrong2023.](images/fruto_citrullus.jpg){#fig-fruto-citrullus fig-aling="center"}
+:::
+
+::: {.column width="50%"}
+![*Cucumis sativus*, tomado de @grumet2022.](images/fruto_cucumis.png){#fig-fruto-cucumis fig-aling="center" width="450"}
+:::
+:::
+
+## Frutos carnosos: drupa {.smaller}
+
+> Fruto carnoso indehiscente con las semillas encerradas en un endocarpo óseo. @beentje2016.
+
+::: {#fig-fruto-drupas layout-ncol="3"}
+![*Cocos nucifera*](images/fruto_cocos.jpg){#fig-fruto-cocos fig-aling="center"}
+
+![*Mangifera indica*](images/fruto_mangifera.jpg){#fig-fruto-mangifera fig-aling="center"}
+
+![*Prunus persica*](images/fruto_prunus.jpg){#fig-fruto-prunus fig-aling="center"}
+
+Tomados de @armstrong2023.
+:::
+
+## Frutos carnosos: pomo {.smaller}
+
+> (en Rosaceae) Fruto simple indehiscente en la que el receptáculo o hipantio se ha agrandado para encerrar el ovario maduro. @beentje2016.
+
+::: {#fig-fruto-pomo layout-ncol="2"}
+![Tomados de @armstrong2023.](images/fruto_malus_1.jpg){#fig-fruto-malus-1 fig-aling="center"}
+
+![Tomados de Guinther ([2003](https://commons.wikimedia.org/wiki/File:Pome_apples_text.jpg)).](images/fruto_malus_2.jpg){#fig-fruto-malus-2 fig-aling="center"}
+
+Fruto de *Malus domestica*.
+:::
+
+## Frutos secos {.smaller}
+
+Todo el pericarpio se seca y a menudo se vuelve quebradizo o duro.
+
+::: columns
+::: {.column width="30%"}
+### Dehiscentes
+
+Se abren al madurar
+
+-   Cápsula
+-   Legumbre
+-   Folículo
+-   Silicua
+
+:::
+
+::: {.column width="32%"}
+### Indehiscentes
+
+No se abren al madurar
+
+-   Aquenio
+-   Cipsela
+-   Cariopsis
+-   Nuez
+-   Sámara
+
+:::
+
+::: {.column width="38%"}
+### Esquizocárpicos
+Se desarrolla a partir de un solo ovario compuesto (2 o más lóculos), se divide en unidades separadas de 1 semilla (mericarpos), las cuales parecen ser un fruto distinto.
+:::
+:::
+
+## Frutos secos dehiscente: cápsula {.smaller}
+
+> fruto seco dehiscente compuesto de dos o
+más carpelos fusionados, se abre por valvas o poros. @beentje2016.
+
+::: {layout-ncol="2"}
+
+![Tipos de dehiscencia de las capsulas. Tomado de @armstrong2023.](images/fruto_capsulas.gif){#fig-fruto-capsulas fig-aling="center"}
+
+![*Lecythis sp.*, tomado de Popovkin ([2014](https://commons.wikimedia.org/wiki/File:Lecythis_fruit_compose.jpg)).](images/fruto_lecythis.jpg){#fig-fruto-lecythis fig-aling="center"}
+:::
+
+## Frutos secos dehiscente: legumbre {.smaller}
+
+::: columns
+::: {.column width="50%"}
+
+> Vaina de las Fabaceae, derivada de un solo carpelo, generalmente (aunque con muchas excepciones) que se abre a lo largo de una sutura en dos mitades, generalmente seca. @beentje2016. 
+
+![Esquema de una legumbre. Tomado de @armstrong2023.](images/fruto_legumbre.gif){#fig-fruto-legumbre-esquema fig-aling="center"}
+
+::: 
+::: {.column width="50%"}
+
+![Partes de una legumbre. Tomado de rioMoros ([s.f.](https://www.riomoros.com/)).](images/fruto_legumbre.jpg){#fig-fruto-legumbre-partes fig-aling="center" width="350"}
+
+::: 
+:::
+
+## Frutos secos dehiscente: folículo {.smaller}
+
+::: columns
+::: {.column width="50%"}
+
+> Vaina originada de un solo carpelo, que se abre a lo largo de la sutura interna (adaxial) a la que se unen las semillas. @beentje2016. 
+
+![Esquema de un folículo. Tomado de @armstrong2023.](images/fruto_foliculo.gif){#fig-fruto-foliculo-esquema fig-aling="center"}
+
+::: 
+::: {.column width="50%"}
+
+![*Asclepias syriaca*, tomado de Mdf ([2006](https://commons.wikimedia.org/wiki/File:Milkweed-in-seed2.jpg)).](images/fruto_asclepias.jpg){#fig-fruto-asclepias fig-aling="center" width="350"}
+
+::: 
+:::
+
+## Frutos secos dehiscente: silicua {.smaller}
+
+> Fruto seco, polispermo dehiscente por dos suturas laterales, originado a partir de un ovario súpero, bicarpelar. @bonifacino2011.
+
+::: {#fig-fruto-silicua layout-ncol="2"}
+
+![Esquema de una silicua.](images/fruto_silicua.gif){#fig-fruto-silicua-esquema fig-aling="center"}
+
+![*Cardamine sp.*](images/fruto_cardamine.jpg){#fig-fruto-cardamine fig-aling="center"}
+
+Tomado de @armstrong2023.
+
+:::
+
+## Frutos secos indehiscente: aquenio {.smaller}
+
+## Frutos secos indehiscente: cipsela {.smaller}
+
+## Frutos secos indehiscente: cariopsis {.smaller}
+
+## Frutos secos indehiscente: Nuez {.smaller}
+
+## Frutos secos indehiscente: sámara {.smaller}
+
+## Frutos agregados
+
+## Frutos múltiples
+
+## Referencias
+
+::: {#refs}
+:::
